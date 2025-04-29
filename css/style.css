@@ -558,6 +558,18 @@ html[dir="ltr"] .notification-no{
 	text-align: center;
 	margin-top: 20px;
 }
+.value-div{
+	padding: 42px 0 0;
+}
+.dashboard-table-2{
+	width: 45% !important;
+}
+.dashboard-table tr:nth-of-type(even) {
+    background-color: #F5F5F5;
+}
+.dashboard-table tr:nth-of-type(odd) {
+    background-color: #fff;
+}
 
 @media (max-width: 991px) {
 
@@ -2065,8 +2077,108 @@ select {
 .mob-icon{
 	font-size: 14px;
 }
-
-
+.counter-bar{
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	margin-top: 10px;
+}
+.cart-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--main-hover);
+	border-radius: 50%;
+	flex-shrink: 0;
+	color: var(--main-color);
+	font-size: 20px;
+	width: 32px;
+	height: 32px;
+	transition: 0.5s;
+	border: 0;
+	outline: none;
+	padding: 0;
+}
+.cart-btn:hover{
+	background-color: var(--main-color);
+	color: #fff;
+}
+.cart-btn:focus{
+	background-color: var(--main-color);
+	color: #fff;
+	outline: none;
+	border: 0;
+}
+.market-section{
+	padding: 60px 0 0;
+}
+.market-arrow{
+	font-size: 14px;
+}
+.up{
+	color: #F8324A;
+}
+.down{
+	color: #4BD12A;
+}
+.counter-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E3E3E3;
+    border-radius: 31px;
+    
+    width: 113px;
+    justify-content: space-between;
+    height: 32px;
+}
+.plus {
+    font-size: 16px;
+    color: #9B9B9B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #E3E3E3;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-inline-start: 5px;
+}
+.plus:hover{
+	background-color: var(--main-color);
+	color: #fff;
+}
+.cart-input {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: var(--main-color);
+    font-size: 16px;
+	font-family: "Tajawal-Medium";
+    width: 55px;
+    text-align: center;
+}
+.minus {
+    font-size: 16px;
+    color: #9B9B9B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #E3E3E3;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-inline-end: 5px;
+}
+.minus:hover{
+	background-color: var(--main-color);
+	color: #fff;
+}
 
 .price-note {
 	display: block;
@@ -2572,8 +2684,9 @@ html[dir="ltr"] .search-icon {
 	white-space: nowrap;
 }
 
-.dashboard-table tr:nth-of-type(odd) {
-	background-color: #F1F1F1;
+.dashboard-table-2 .table-record td{
+	font-size: 16px;
+	font-family: "Tajawal-Medium";
 }
 
 .table-btn a {
@@ -3421,6 +3534,9 @@ html[dir="ltr"] .search-icon {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 15px;
 	}
+	.dashboard-table-2{
+		width: 100% !important;
+	}
 	.order-statuss{
 		font-size: 8px;
 	}
@@ -3763,6 +3879,12 @@ html[dir="ltr"] .search-icon {
 	#sendProposalModal .modal-dialog {
 		width: 100%;
 	}
+	.dashboard-table-2{
+		width: 60% !important;
+	}
+	.products-grid{
+		grid-template-columns: repeat(4, 1fr);
+	}
 	.order-statuss{
 		font-size: 9px;
 	}
@@ -3817,6 +3939,9 @@ html[dir="ltr"] .search-icon {
 		display: grid !important;
 		padding: 0 !important;
 
+	}
+	.dashboard-table-2{
+		width: 60% !important;
 	}
 	.product-content {
         flex-wrap: nowrap;
