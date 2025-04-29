@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> البيضة الذكية / كود التفعيل </title>
+    <link rel="icon" href="images/fav.png" type="image/png" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- preloader -->
+    <!-- header section -->
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="nav-header">
+            <div class="back-bar">
+              <a href="register-2.html" class="back-link-2">
+                <i class="las la-arrow-right"></i>
+              </a>
+              <div class="img-logo">
+                <a href="#">
+                  <img src="images/fav.png" class="img-responsive" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end top header-->
+      </div>
+    </header>
+    <!-- header section     -->
+    <!-- register-section  -->
+    <div class="register-section">
+      <div class="container">
+        <div class="register-section-content">
+          <h2 class="form-title"> ادخل كود التفعيل </h2>
+          <p class="form-p"> قم بإدخال كود التفعيل المرسل على رقم جوالك لتتمكن من إتمام عملية التسجيل </p>
+          <form>
+            <div class="verification-code-list">
+              <input type="text" class="inputs verification-no" placeholder="0" maxlength="1">
+              <input type="text" class="inputs verification-no" placeholder="0" maxlength="1">
+              <input type="text" class="inputs verification-no" placeholder="0" maxlength="1">
+              <input type="text" class="inputs verification-no" placeholder="0" maxlength="1">
+              <input type="text" class="inputs verification-no" placeholder="0" maxlength="1">
+            </div>
+            <a href="register-success.html" class="submit-btn "> تأكيد </a>
+          </form>
+          <span id="timer" class="timer"></span>
+        </div>
+      </div>
+      <span class="copy-right"> © مؤسسة البيضة الذكية 2023 - جميع الحقوق محفوظة </span>
+    </div>
+    <!-- register-section  -->
+    <script>
+      /////////////////////////////////////// resend verification timer ////////////////////////////////
+      let timerOn = true;
+
+      function timer(remaining) {
+        var m = Math.floor(remaining / 60);
+        var s = remaining % 60;
+        m = m < 10 ? '0' + m : m;
+        s = s < 10 ? '0' + s : s;
+        document.getElementById('timer').innerHTML = m + ':' + s;
+        remaining -= 1;
+        if (remaining >= 0 && timerOn) {
+          setTimeout(function() {
+            timer(remaining);
+          }, 1000);
+          return;
+        }
+        if (!timerOn) {
+          // Do validate stuff here
+          return;
+        }
+        // Do timeout stuff here
+        alert('Timeout for verification code');
+      }
+      timer(60);
+    </script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

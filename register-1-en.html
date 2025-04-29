@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Smart Egg / Register </title>
+    <link rel="icon" href="images/fav.png" type="image/png" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- preloader -->
+    <!-- header section -->
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="nav-header">
+            <div class="img-logo">
+              <a href="#">
+                <img src="images/fav.png" class="img-responsive" />
+              </a>
+            </div>
+            <span class="login-note"> Have account <a href="login-en.html" class="login-link"> login </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- end top header-->
+      </div>
+    </header>
+    <!-- header section     -->
+    <!-- register-section  -->
+    <div class="register-section">
+      <div class="container">
+        <div class="register-section-content">
+          <h2 class="form-title-2"> create new account </h2>
+          <form>
+            <label class="form-label form-label-2"> account type </label>
+            <div class="radio-btns-div">
+              <div class="radio-block">
+                <label>
+                  <input type="radio" class="radio-input" name="account type">
+                  <span class="checkmark-2"></span>
+                </label>
+                <span class="radio-label"> supermarket </span>
+              </div>
+              <div class="radio-block">
+                <label>
+                  <input type="radio" class="radio-input" name="account type">
+                  <span class="checkmark-2"></span>
+                </label>
+                <span class="radio-label"> grocery </span>
+              </div>
+              <div class="radio-block">
+                <label>
+                  <input type="radio" class="radio-input" name="account type">
+                  <span class="checkmark-2"></span>
+                </label>
+                <span class="radio-label"> Poultry shop </span>
+              </div>
+            </div>
+            
+           
+            <div class="form-grid">
+              <div class="form-block">
+                <label class="form-label"> email </label>
+                <input type="email" class="form-input-1" placeholder="  ">
+              </div>
+              <div class="form-block">
+                <label class="form-label"> password </label>
+                <div class="form-input-div">
+                  <input type="password" class="form-input-1" id="pass" placeholder="   ">
+                  <a onclick="togglePassword()">
+                    <i class="las la-eye-slash  password-icon" id="eye-slash"></i>
+                    <i class=" las la-eye password-icon" id="eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="form-grid">
+              <div class="form-block">
+                <label class="form-label"> confirm password </label>
+                <div class="form-input-div">
+                  <input type="password" class="form-input-1" id="pass-2" placeholder="   ">
+                  <a onclick="togglePassword2()">
+                    <i class="las la-eye-slash  password-icon" id="eye-slash-2"></i>
+                    <i class=" las la-eye password-icon" id="eye-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="register-2-en.html" class="submit-btn"> continue </a>
+            <span class="form-note"> By registering in the Smart Egg application, you agree to <button type="button" class="register-link" data-toggle="modal" data-target="#termsModal"> terms & conditions </button>
+            </span>
+          </form>
+        </div>
+      </div>
+      <span class="copy-right"> © Smart Egg Foundation 2023 - All rights reserved </span>
+    </div>
+    <!-- terms Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="termsModalLabel"> terms & conditions </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="modal-text"> Textual content, here there is textual content" makes it look (i.e., the letters) like readable English. Many desktop publishing programs and web page editors now use Lorem Ipsum as their default model text, and if you type "lorem ipsum" into any search engine, many new web sites will appear in the search results. Over the years, various new versions of the text have appeared </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- register-section  -->
+    <script>
+      function togglePassword() {
+        var x = document.getElementById("pass");
+        var eyeSlash = document.getElementById("eye-slash");
+        var eye = document.getElementById("eye");
+        if (x.type === "password") {
+          x.type = "text";
+          eyeSlash.style.display = "none";
+          eye.style.display = "block";
+        } else {
+          x.type = "password";
+          eyeSlash.style.display = "block";
+          eye.style.display = "none";
+        }
+      }
+
+      function togglePassword2() {
+        var x = document.getElementById("pass-2");
+        var eyeSlash = document.getElementById("eye-slash-2");
+        var eye = document.getElementById("eye-2");
+        if (x.type === "password") {
+          x.type = "text";
+          eyeSlash.style.display = "none";
+          eye.style.display = "block";
+        } else {
+          x.type = "password";
+          eyeSlash.style.display = "block";
+          eye.style.display = "none";
+        }
+      }
+
+      function togglePassword4() {
+        var x = document.getElementById("pass4");
+        var eyeSlash = document.getElementById("eye-slash4");
+        var eye = document.getElementById("eye4");
+        if (x.type === "password") {
+          x.type = "text";
+          eyeSlash.style.display = "none";
+          eye.style.display = "block";
+        } else {
+          x.type = "password";
+          eyeSlash.style.display = "block";
+          eye.style.display = "none";
+        }
+      }
+    </script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
