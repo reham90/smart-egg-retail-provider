@@ -1245,6 +1245,21 @@ html[dir="ltr"] .date-input {
 .shop-more{
 	background-color: #E6E6E6;
 }
+.pay-list{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.pay-list-span{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	gap: 8px;
+}
+.pay-list-span img{
+	display: flex;
+	flex-shrink: 0;
+}
 .form-input-1:focus {
 	border: 2px solid var(--main-color);
 	outline: none;
@@ -1605,6 +1620,25 @@ select {
 
 #problemModal .modal-dialog {
 	width: 375px;
+}
+#cancelOrderModal .modal-dialog{
+	width: 375px;
+}
+.rating-list{
+	display: flex;
+	gap: 3px;
+	list-style: none;
+	margin: 0 ;
+	padding: 0;
+}
+.rate-icon{
+	font-size: 16px;
+}
+.gold{
+	color: #E9CA00;
+}
+.gray{
+	color: #CFCFCF;
 }
 .problem-btn {
 	background-color: #EEEEEE;
