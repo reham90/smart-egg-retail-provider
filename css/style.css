@@ -1237,7 +1237,14 @@ html[dir="ltr"] .date-input {
 	color: #9B9B9B;
 	font-size: 14px;
 }
-
+.payment-btns{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.shop-more{
+	background-color: #E6E6E6;
+}
 .form-input-1:focus {
 	border: 2px solid var(--main-color);
 	outline: none;
@@ -1628,7 +1635,32 @@ select {
 	outline: none;
 	border: 0;
 }
-
+.change-address-link{
+	width: 110px;
+height: 30px;
+margin: 10px 0 0;
+font-size: 12px;
+}
+.order-text-2{
+	color: #9B9B9B !important;
+}
+.pay-bar{
+	background-color: #EEEEEE;
+	display: flex;
+	justify-content: space-between;
+	padding: 9px 13px;
+	margin: 0 0 30px;
+}
+.pay-bar-label{
+	color: var(--main-color);
+	text-align: start;
+	margin: 0;
+	font-size: 12px;
+	font-family: "Tajawal-Medium";
+}
+.pay-bar .new-price{
+	font-size: 14px;
+}
 .proposal-block {
 	display: flex;
 	align-items: flex-start;
@@ -1986,6 +2018,23 @@ select {
 .order-status-block .order-list-icon {
 	color: var(--main-color);
 }
+.proposal-block .delete-product{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	background-color: #F3F3F3;
+	width: 22px;
+	height: 22px;
+	color: #C0C0C0;
+	font-size: 15px;
+}
+.cart-btnn-div{
+	margin: 30px 0 0;
+	display: flex;
+	justify-content: end;
+}
+
 
 .linked-list {
 	list-style: none;
@@ -2866,7 +2915,12 @@ html[dir="ltr"] .search-icon {
 	margin: 0;
 	font-family: "Tajawal-Medium";
 }
-
+.pay-grid{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 5px;
+	margin: 13px 0 0;
+}
 .unread-block{
 	background-color: #FAFAFA;
 	border: 1px solid #EEEEEE;
@@ -2878,6 +2932,15 @@ html[dir="ltr"] .search-icon {
 	justify-content: space-between;
 	padding: 26px 30px;
 	margin: 0 0 20px;
+	border-radius: 10px;
+}
+.order-label-22{
+	width: 100%;
+}
+.form-input-11{
+	width: 100%;
+	margin: 15px 0 20px;
+	padding-inline-start: 28px;
 }
 .wallet-info-text{
 	display: flex;
@@ -3534,6 +3597,12 @@ html[dir="ltr"] .search-icon {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 15px;
 	}
+	.cart-btnn-div{
+		justify-content: center;
+	}
+	.pay-grid{
+		grid-template-columns: repeat(1,1fr);
+	}
 	.dashboard-table-2{
 		width: 100% !important;
 	}
@@ -3569,7 +3638,7 @@ html[dir="ltr"] .search-icon {
 	.wallet-info-bar{
 		flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
+    
 	}
 	.contact-content {
 		width: 100%;
@@ -3939,6 +4008,12 @@ html[dir="ltr"] .search-icon {
 		display: grid !important;
 		padding: 0 !important;
 
+	}
+	.cart-btnn-div{
+		justify-content: flex-end;
+	}
+	.pay-grid{
+		grid-template-columns: repeat(2,1fr);
 	}
 	.dashboard-table-2{
 		width: 60% !important;

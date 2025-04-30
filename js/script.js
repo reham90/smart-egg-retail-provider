@@ -27,7 +27,7 @@ $(".inputs").keyup(function () {
 
 $('.minus').click(function () {
   var $input = $(this).parent().find('input');
-  var count = parseInt($input.val()) - 1;
+  var count = parseInt($input.val()) - 0;
   count = count < 1 ? 1 : count;
   $input.val(count);
   $input.change();
@@ -35,7 +35,7 @@ $('.minus').click(function () {
 });
 $('.plus').click(function () {
   var $input = $(this).parent().find('input');
-  $input.val(parseInt($input.val()) + 1);
+  $input.val(parseInt($input.val()) + 0);
   $input.change();
   return false;
 });
@@ -117,7 +117,9 @@ $('.delete-product').on('click', function(){
     $(this).closest(".table-record").remove();
   });
 
-
+  $('.delete-product').on('click', function(){
+    $(this).closest(".proposal-block").remove();
+  });
  
 
 

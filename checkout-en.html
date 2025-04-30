@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title> Smart Egg / add new offer </title>
+    <title> Smart Egg / checkout </title>
     <link rel="icon" href="images/fav.png" type="image/png" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -62,7 +62,7 @@
                   <i class="las la-bars top-header-list-icon menu-id"></i>
                 </li>
               </ul>
-              <a href="add-new-offer.html" class="language-anchor hidden-xs hidden-sm">العربية</a>
+              <a href="checkout.html" class="language-anchor hidden-xs hidden-sm">العربية</a>
             </div>
           </div>
         </div>
@@ -89,15 +89,15 @@
               <i class="las la-border-all nav-icon"></i>
               <a href="products-en.html">  my products </a>
             </li>
-            <li class="active">
+            <li >
               <i class="las la-percent nav-icon"></i>
               <a href="offers-en.html">  my offers  </a>
             </li>
-            <li>
+            <li >
               <i class="las la-clipboard-list nav-icon"></i>
               <a href="orders-en.html"> my orders </a>
             </li>
-            <li >
+            <li class="active">
             <i class="las la-shopping-cart nav-icon"></i>
               <a href="store-en.html"> smart egg store </a>
             </li>
@@ -114,80 +114,150 @@
               <a href="history-en.html"> pay book</a>
             </li>
           </ul>
-          <a href="add-new-offer.html" class="language-anchor hidden-lg hidden-md">العربية</a>
+          <a href="checkout.html" class="language-anchor hidden-lg hidden-md">العربية</a>
         </div>
         <div class="dashboard-content">
           <div class="dashboard-title-bar">
             <h2 class="dashboard-title">
-              <i class="las la-arrow-left dashboard-title-icon"></i> add new offer 
+               complete order
             </h2>
-           
+      
           </div>
-            
-          <form>
-            <div class="form-grid-2">
-              <div class="form-block">
-                <label class="form-label"> offer name</label>
-                <div class="form-input-div">
-                  <input type="text" class="form-input-1" placeholder="  ">
+         
+          <div class="order-status-block">
+            <label class="order-label">
+               Delivery information </label>
+               <p class="order-text order-text-2"> home address </p>
+            <p class="order-text order-text-2"> Abdallah Saleh </p>
+           
+            <p class="order-text order-text-2"> 0540000000 </p>
+            <a href="#" class="submit-btn change-address-link">
+             change address
+            </a>
+          </div>
+          <div class="order-status-block">
+            <label class="order-label">
+              <i class="las la-boxes order-list-icon"></i> products </label>
+            <div class="proposal-block">
+              <div class="product-details">
+                <div class="product-img">
+                  <img class="img-responsive" src="images/big-product-2.png" alt="product image">
+                </div>
+                <div class="product-text">
+                  <h3 class="product-title">30 fresh eggs (medium)</h3>
+                  <span class="company">
+                    <img class="company-icon" src="images/icon.png" alt="company icon">
+                    Barq Al Saada Supplies
+                  </span>
+                  <span class="order-status-2">
+                   Available for delivery
+                  </span>
+                  <ul class="product-details-list">
+                    <li>
+                      <i class="las la-border-all product-details-list-icon"></i> Poultry eggs
+                    </li>
+                    <li>
+                      <i class="las la-weight-hanging product-details-list-icon"></i> medium
+                    </li>
+                  </ul>
+                 
                 </div>
               </div>
-              <div class="form-block">
-                <label class="form-label"> offer photos </label>
-                <div class="upload__box">
-                  <div class="upload__btn-box">
-                    <label class="upload__btn">
-                      <p class="upload-images"> add file</p>
-                      <input type="file" multiple="" class="upload__inputfile">
-                    </label>
-                  </div>
-                  <div class="upload__img-wrap"></div>
+              <span class="new-price price-no">
+                <span class="product-no">
+                  x2
+                </span>
+                12 R.S
+              </span>
+            </div>
+            <div class="pay-bar">
+              <label class="pay-bar-label">
+                Delivery charges for this supplier
+              </label>
+              <span class="new-price price-no">
+                
+                10 R.S
+              </span>
+            </div>
+            <div class="proposal-block">
+              <div class="product-details">
+                <div class="product-img">
+                  <img class="img-responsive" src="images/01.png" alt="product image">
+                </div>
+                <div class="product-text">
+                  <h3 class="product-title"> Fresh chicken 1000 grams</h3>
+                  <span class="company">
+                    <img class="company-icon" src="images/icon.png" alt="company icon">
+                    Barq Al Saada Supplies
+                  </span>
+                  <span class="order-status-2">
+                   Available for delivery
+                  </span>
+                 
+                  
+                  <ul class="product-details-list">
+                    <li>
+                      <i class="las la-border-all product-details-list-icon"></i> poultry meat
+                    </li>
+                    <li>
+                      <i class="las la-weight-hanging product-details-list-icon"></i> 1000 grams
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="form-block">
-                <label class="form-label"> choose products  </label>
-                <div class="form-input-div">
-                  <i class="las la-angle-down arrow-icon"></i>
-                  <select class="form-input-1">
-                    <option>30 fresh eggs (medium)</option>
-                    <option>30 fresh eggs (medium)</option>
-                    <option>30 fresh eggs (medium)</option>
-                    <option>30 fresh eggs (medium)</option>
-                  </select>
-                </div>
-              </div>
-  
-             
+              <span class="new-price price-no">
+                <span class="product-no">
+                  x2
+                </span>
+                12 R.S
+              </span>
+            </div>
+            <div class="pay-bar">
+              <label class="pay-bar-label">
+                Delivery charges for this supplier
+              </label>
+              <span class="new-price price-no">
+                
+                10 R.S
+              </span>
+            </div>
+          </div>
+          <div class="order-status-block">
+            <ul class="total-list">
+              <li>
+                <span class="total-list-text"> total products</span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
               
+              <li>
+                <span class="total-list-text"> Total cost after discount</span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text">Total delivery fees</span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text">Value added tax</span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text">Total cost after tax</span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+            
+              <li>
+                <span class="total-list-text"> Total due</span>
+                <span class="total-list-text"> 3600 R.S</span>
+              </li>
+            </ul>
+            <div class="cart-btnn-div">
+              <a href="order-payment-en.html" class="submit-btn submit-2">
+               complete payment
+                </a>
             </div>
-            <div class="form-grid-2">
-              <div class="form-block">
-                <label class="form-label">  offer price </label>
-                <div class="form-input-div">
-                  <input type="text" class="form-input-1" placeholder="  ">
-                </div>
-              </div>
-              <div class="form-block">
-                <label class="form-label"> Offer start date</label>
-                <div class="form-input-div date-div">
-                  <input type="date" class="form-input-1 date-input" placeholder="  ">
-                </div>
-              </div>
-              <div class="form-block">
-                <label class="form-label"> Offer end date</label>
-                <div class="form-input-div date-div">
-                  <input type="date" class="form-input-1 date-input" placeholder="  ">
-                </div>
-              </div>
-            </div>
-            <div class="form-input-div form-3">
-              <label class="form-label">  offer description </label>
-              <textarea class="form-textarea"></textarea>
-            </div>
-            <button class="submit-btn submit-2" type="submit">
-              add
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
