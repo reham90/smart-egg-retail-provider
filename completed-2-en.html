@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>البيضة الذكية / طلباتي </title>
+    <title> Smart Egg / my orders </title>
     <link rel="icon" href="images/fav.png" type="image/png" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -31,9 +30,9 @@
               </a>
             </div>
             <div class="header-icons-and-language">
-              <ul class="top-header-list">
+             <ul class="top-header-list">
                 <li>
-                  <a href="cart.html">
+                  <a href="cart-en.html">
                     <div class="notification-icon">
                       <i class="las la-shopping-cart top-header-list-icon"></i>
                       <span class="notification-no"></span>
@@ -54,8 +53,8 @@
                       <i class="las la-user top-header-list-icon"></i>
                     </button>
                     <div class="dropdown-content">
-                      <a href="#">تسجيل خروج </a>
-                      <a href="#"> حذف الحساب </a>
+                      <a href="#"> sign out </a>
+                      <a href="#"> delete account </a>
                     </div>
                   </div>
                 </li>
@@ -63,7 +62,7 @@
                   <i class="las la-bars top-header-list-icon menu-id"></i>
                 </li>
               </ul>
-              <a href="completed-2-en.html" class="language-anchor hidden-xs hidden-sm">English</a>
+              <a href="completed-2.html" class="language-anchor hidden-xs hidden-sm">العربية</a>
             </div>
           </div>
         </div>
@@ -80,128 +79,126 @@
           <ul class="my-account-list big-menu list-unstyled">
             <li >
               <i class="las la-chart-pie nav-icon"></i>
-              <a href="statistics.html"> الإحصائيات </a>
+              <a href="statistics-en.html"> statistics </a>
             </li>
             <li >
               <i class="las la-user nav-icon"></i>
-              <a href="profile.html"> الملف الشخصي </a>
+              <a href="profile-en.html"> profile</a>
             </li>
             <li >
               <i class="las la-border-all nav-icon"></i>
-              <a href="products.html">  منتجاتي </a>
+              <a href="products-en.html">  my products </a>
             </li>
-            <li>
+            <li >
               <i class="las la-percent nav-icon"></i>
-              <a href="offers.html">  عروضي </a>
+              <a href="offers-en.html">  my offers  </a>
             </li>
             <li class="active">
               <i class="las la-clipboard-list nav-icon"></i>
-              <a href="orders.html"> طلباتي </a>
+              <a href="orders-en.html"> my orders </a>
             </li>
-            <li>
-              <i class="las la-shopping-cart nav-icon"></i>
-              <a href="store.html"> متجر البيضة الذكية </a>
+            <li >
+            <i class="las la-shopping-cart nav-icon"></i>
+              <a href="store-en.html"> smart egg store </a>
             </li>
-           
             <li>
               <i class="las la-bell nav-icon"></i>
-              <a href="notifications.html"> الإشعارات </a>
+              <a href="notifications-en.html"> notifications </a>
             </li>
             <li>
               <i class="las la-wallet nav-icon"></i>
-              <a href="wallet.html"> المحفظة الإلكترونية </a>
+              <a href="wallet.html"> Electronic wallet </a>
             </li>
             <li>
               <i class="las la-history nav-icon"></i>
-              <a href="history.html">  سجل المدفوعات</a>
+              <a href="history-en.html"> pay book</a>
             </li>
           </ul>
-          <a href="completed-2-en.html" class="language-anchor hidden-lg hidden-md">English</a>
+          <a href="completed-2.html" class="language-anchor hidden-lg hidden-md">العربية</a>
         </div>
         <div class="dashboard-content">
           <div class="dashboard-title-bar">
             <h2 class="dashboard-title">
-              <i class="las la-arrow-right dashboard-title-icon"></i> تفاصيل الطلب #123
+              <i class="las la-arrow-left dashboard-title-icon"></i> order details #123
             </h2>
-           <div class="order-btns">
-            <button  class="download-btn" >   
-              <i class="las la-download download-icon"></i>
-              تحميل الفاتورة
-             </button>
-             <button type="button" class="problem-btn" data-toggle="modal" data-target="#problemModal">   
-              <i class="las la-flag download-icon"></i>
-              الإبلاغ عن مشكلة
-             </button>
-           </div>
-           
-            <!-- Modal -->
-            <div class="modal fade" id="problemModal" tabindex="-1" aria-labelledby="problemModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="problemModalLabel">  سبب الإبلاغ عن مشكلة </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <form>
-             <div class="radio-list">
-              <div class="radio-block">
-                <label>
-                  <input type="radio" class="radio-input" name="problem reason">
-                  <span class="checkmark-2"></span>
-                </label>
-                <span class="radio-label"> المنتج غير متوفر</span>
-              </div>
-              <div class="radio-block">
-                <label>
-                  <input type="radio" class="radio-input" name="problem reason">
-                  <span class="checkmark-2"></span>
-                </label>
-                <span class="radio-label"> المنتج غير متوفر</span>
-              </div>
-              <div class="radio-block">
-                <label>
-                  <input type="radio" class="radio-input" name="problem reason">
-                  <span class="checkmark-2"></span>
-                </label>
-                <span class="radio-label"> سبب آخر </span>
-              </div>
+            <div class="order-btns">
+              <button  class="download-btn" >   
+                <i class="las la-download download-icon"></i>
+                download reciept
+               </button>
+               <button type="button" class="problem-btn" data-toggle="modal" data-target="#problemModal">   
+                <i class="las la-flag download-icon"></i>
+                Report a problem
+               </button>
              </div>
-             <textarea class="form-input-1 textarea">ادخل وصف نصي للبلاغ لا يقل عن 250 حرف</textarea>
-             <div class="modal-btns">
-              <button type="submit" class="submit-btn">إرسال</button>
-              <button type="button" class="cancel-btn" data-dismiss="modal">إلغاء</button>
-              
-            </div>
-            </form>
+                  <!-- Modal -->
+                  <div class="modal fade" id="problemModal" tabindex="-1" aria-labelledby="problemModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="problemModalLabel">  Reason for reporting a problem</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                   <div class="radio-list">
+                    <div class="radio-block">
+                      <label>
+                        <input type="radio" class="radio-input" name="problem reason">
+                        <span class="checkmark-2"></span>
+                      </label>
+                      <span class="radio-label"> product is not available</span>
+                    </div>
+                    <div class="radio-block">
+                      <label>
+                        <input type="radio" class="radio-input" name="problem reason">
+                        <span class="checkmark-2"></span>
+                      </label>
+                      <span class="radio-label"> product is not available</span>
+                    </div>
+                    <div class="radio-block">
+                      <label>
+                        <input type="radio" class="radio-input" name="problem reason">
+                        <span class="checkmark-2"></span>
+                      </label>
+                      <span class="radio-label"> other reason</span>
+                    </div>
+                   </div>
+                   <textarea class="form-input-1 textarea">Enter a text description for the report of at least 250 characters</textarea>
+                   <div class="modal-btns">
+                    <button type="submit" class="submit-btn">send</button>
+                    <button type="button" class="cancel-btn" data-dismiss="modal">cancel</button>
+                    
                   </div>
-                  
-                 
-                </div>
-              </div>
-            </div>
+                  </form>
+                        </div>
+                        
+                       
+                      </div>
+                    </div>
+                  </div>
           </div>
           <ul class="order-list order-list-block">
             <li>
               <label class="order-label">
-                <i class="las la-hashtag order-list-icon"></i> رقم الطلب </label> #123
+                <i class="las la-hashtag order-list-icon"></i> order number </label> #123
             </li>
             <li>
               <label class="order-label">
-                <i class="las la-calendar order-list-icon"></i> تاريخ الإنشاء   </label> 2023/03/01
+                <i class="las la-calendar order-list-icon"></i> Date of creation </label> 2023/03/01
             </li>
             <li>
               <label class="order-label">
-                <i class="las la-coins order-list-icon"></i> طريقة الدفع </label> 
+                <i class="las la-coins order-list-icon"></i>  pay method </label>
                 <div class="pay-list">
                   <span class="pay-list-span">
-                    رصيد المحفظة 
+                   wallet balance
                     <img src="images/wallet.png" alt="wallet img">
                   </span>
                   <span class="pay-list-span">
-                    فيزا
+                    visa
                     <img src="images/visa.png" alt="visa img">
                   </span>
                 </div>
@@ -209,41 +206,41 @@
           </ul>
           <div class="order-status-block">
             <label class="order-label">
-              <i class="las la-tag order-list-icon"></i> حالة الطلب </label>
+              <i class="las la-tag order-list-icon"></i> order status</label>
             <ul class="linked-list">
               <li class="active">
-                <i class="las la-check linked-list-icon"></i> جاري التجهيز
+                <i class="las la-check linked-list-icon"></i> Preparing
                
               </li>
               <li class="active">
-                <i class="las la-check linked-list-icon"></i> تم التجهيز في انتظار المندوب
-              </li >
-              <li class="active">
-                <i class="las la-check linked-list-icon"></i> جاري التوصيل
+                <i class="las la-check linked-list-icon"></i>Ready, waiting for the delegate
               </li>
               <li class="active">
-                <i class="las la-check linked-list-icon"></i> تم التوصيل
+                <i class="las la-check linked-list-icon"></i> delivering
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> delivered
               </li>
               
             </ul>
           </div>
           <div class="order-status-block">
             <label class="order-label">
-              <i class="las la-truck order-list-icon"></i> عنوان  التوصيل </label>
-            <p class="order-text"> عبدالله صالح </p>
-            <p class="order-text"> 43 شارع صلاح الدين الأيوبي - الملز - خلف البنك الأهلي </p>
+              <i class="las la-truck order-list-icon"></i> Delivery address </label>
+            <p class="order-text"> Abdallah Saleh </p>
+            <p class="order-text"> 43 Salah El Din Al Ayoubi Street - Al Malaz - Behind the National Bank </p>
             <p class="order-text"> 0540000000 </p>
           </div>
           <div class="order-status-block">
             <label class="order-label">
-              <i class="las la-user-tie order-list-icon"></i> مندوب التوصيل </label>
+              <i class="las la-user-tie order-list-icon"></i> Delivery representative</label>
             <div class="proposal-block">
               <div class="product-details">
                 <div class="delegate-img">
                   <img class="img-responsive" src="images/delegate.png" alt="product image">
                 </div>
                 <div class="product-text">
-                  <h3 class="product-title">المندوب - خالد سالم البصري</h3>
+                  <h3 class="product-title">Delegate - Khaled Salem Al-Basri</h3>
                   <ul class="rating-list">
                     <li>
                       <i class="las la-star rate-icon gold"></i>
@@ -272,14 +269,13 @@
               </div>
              
             </div>
-
             <div class="proposal-block">
               <div class="product-details">
                 <div class="delegate-img">
                   <img class="img-responsive" src="images/delegate.png" alt="product image">
                 </div>
                 <div class="product-text">
-                  <h3 class="product-title">المندوب - خالد سالم البصري</h3>
+                  <h3 class="product-title">Delegate - Khaled Salem Al-Basri</h3>
                   <ul class="rating-list">
                     <li>
                       <i class="las la-star rate-icon gold"></i>
@@ -312,27 +308,27 @@
           </div>
           <div class="order-status-block">
             <label class="order-label">
-              <i class="las la-boxes order-list-icon"></i> المنتجات </label>
+              <i class="las la-boxes order-list-icon"></i> products </label>
             <div class="proposal-block">
               <div class="product-details">
                 <div class="product-img">
                   <img class="img-responsive" src="images/big-product.png" alt="product image">
                 </div>
                 <div class="product-text">
-                  <h3 class="product-title">بيض طازج 30 حبة (وسط)</h3>
+                  <h3 class="product-title">30 fresh eggs (medium)</h3>
                   <span class="company">
                     <img class="company-icon" src="images/icon.png" alt="company icon">
-                    تموينات برق السعادة
+                    Barq Al Saada Supplies
                   </span>
                   <span class="order-status-2">
-                    متاح للتوصيل
+                   Available for delivery
                   </span>
                   <ul class="product-details-list">
                     <li>
-                      <i class="las la-border-all product-details-list-icon"></i> بيض الدواجن
+                      <i class="las la-border-all product-details-list-icon"></i> Poultry eggs
                     </li>
                     <li>
-                      <i class="las la-weight-hanging product-details-list-icon"></i> وسط
+                      <i class="las la-weight-hanging product-details-list-icon"></i> medium
                     </li>
                   </ul>
                  
@@ -342,16 +338,17 @@
                 <span class="product-no">
                   x2
                 </span>
-                12 ر.س
+                12 R.S
               </span>
+             
             </div>
-            <div class="pay-bar ">
+            <div class="pay-bar">
               <label class="pay-bar-label">
-                رسوم التوصيل لهذا للمورد
+                Delivery charges for this supplier
               </label>
               <span class="new-price price-no">
                 
-                10 ر.س
+                10 R.S
               </span>
             </div>
             <div class="proposal-block">
@@ -360,22 +357,22 @@
                   <img class="img-responsive" src="images/01.png" alt="product image">
                 </div>
                 <div class="product-text">
-                  <h3 class="product-title">دجاج طازج 1000 جرام</h3>
+                  <h3 class="product-title">Fresh chicken 1000 grams</h3>
                   <span class="company">
                     <img class="company-icon" src="images/icon.png" alt="company icon">
-                    تموينات برق السعادة
+                    Barq Al Saada Supplies
                   </span>
                   <span class="order-status-2">
-                    متاح للتوصيل
+                   Available for delivery
                   </span>
                  
-                  <h3 class="product-title">  </h3>
+                 
                   <ul class="product-details-list">
                     <li>
-                      <i class="las la-border-all product-details-list-icon"></i> لحوم الدواجن
+                      <i class="las la-border-all product-details-list-icon"></i> poultry meat
                     </li>
                     <li>
-                      <i class="las la-weight-hanging product-details-list-icon"></i> 1000 جرام
+                      <i class="las la-weight-hanging product-details-list-icon"></i> 1000 grams
                     </li>
                   </ul>
                 </div>
@@ -384,57 +381,59 @@
                 <span class="product-no">
                   x2
                 </span>
-                12 ر.س
+                12 R.S
               </span>
+             
             </div>
-            <div class="pay-bar ">
+            <div class="pay-bar">
               <label class="pay-bar-label">
-                رسوم التوصيل لهذا للمورد
+                Delivery charges for this supplier
               </label>
               <span class="new-price price-no">
                 
-                10 ر.س
+                10 R.S
               </span>
             </div>
           </div>
           <div class="order-status-block">
             <ul class="total-list">
               <li>
-                <span class="total-list-text"> اجمالي المنتجات </span>
-                <span class="total-list-text"> 3600 ر.س </span>
+                <span class="total-list-text">total products</span>
+                <span class="total-list-text"> 3600 R.S</span>
               </li>
               <li>
-                <span class="total-list-text"> إجمالي التكلفة بعد الخصم</span>
-                <span class="total-list-text"> 3600 ر.س </span>
+                <span class="total-list-text"> Total cost after discount</span>
+                <span class="total-list-text"> 3600 R.S </span>
               </li>
               <li>
-                <span class="total-list-text">إجمالي رسوم التوصيل</span>
-                <span class="total-list-text"> 3600 ر.س </span>
+                <span class="total-list-text">Total delivery fees</span>
+                <span class="total-list-text"> 3600 R.S </span>
               </li>
               <li>
-                <span class="total-list-text">ضريبة القيمة المضافة</span>
-                <span class="total-list-text"> 3600 ر.س </span>
+                <span class="total-list-text">Value added tax</span>
+                <span class="total-list-text"> 3600 R.S </span>
               </li>
               <li>
-                <span class="total-list-text">إجمالي  التكلفة بعد الضريبة </span>
-                <span class="total-list-text"> 3600 ر.س </span>
+                <span class="total-list-text">Total cost after tax</span>
+                <span class="total-list-text"> 3600 R.S </span>
               </li>
+              <li>
             
               <li>
-                <span class="total-list-text"> الإجمالي المستحق </span>
-                <span class="total-list-text"> 3600 ر.س </span>
+                <span class="total-list-text"> Total due</span>
+                <span class="total-list-text"> 3600 R.S</span>
               </li>
             </ul>
             <div class="cart-btnn-div">
               <button type="button" class="submit-btn submit-2 shop-more" data-toggle="modal" data-target="#ratingModal">   
-               تقييم الطلب
+              rating order
               </button>
                          <!-- Modal -->
             <div class="modal fade" id="ratingModal" tabindex="-1" aria-labelledby="ratingModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="ratingModalLabel">  تقييم الطلب </h5>
+                    <h5 class="modal-title" id="ratingModalLabel">  rating order</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -443,13 +442,13 @@
                     <form>
             <div class="order-status-block">
               <label class="order-label">
-                الموردين </label>
+                suppliers </label>
                 <div class="product-details">
                 <div class="supplier-img">
                   <img src="images/watania.png" alt="supplier image">
                 </div>
                 <div class="product-text">
-                  <h3 class="product-title">المورد - دواجن الوطنية</h3>
+                  <h3 class="product-title">Supplier - National Poultry</h3>
                   <ul class="rating-list">
                     <li>
                       <i class="las la-star rate-icon gold"></i>
@@ -471,14 +470,14 @@
                  
                 </div>
                 </div>
-                <textarea class="form-input-1 textarea order-label">اضف ملاحظاتك على المورد</textarea>
+                <textarea class="form-input-1 textarea order-label">Add your comments on the supplier</textarea>
 
                 <div class="product-details">
                   <div class="supplier-img">
                     <img src="images/youm.png" alt="supplier image">
                   </div>
                   <div class="product-text">
-                    <h3 class="product-title">المورد - دجاج اليوم - المراعي</h3>
+                    <h3 class="product-title">Supplier - Today's Chicken - Almarai</h3>
                     <ul class="rating-list">
                       <li>
                         <i class="las la-star rate-icon gray"></i>
@@ -500,17 +499,17 @@
                    
                   </div>
                   </div>
-                  <textarea class="form-input-1 textarea order-label">اضف ملاحظاتك على المورد</textarea>
+                  <textarea class="form-input-1 textarea order-label">Add your comments on the supplier</textarea>
             </div>
             <div class="order-status-block">
               <label class="order-label">
-                المناديب </label>
+                delegates </label>
                 <div class="product-details">
                 <div class="supplier-img">
                   <img src="images/delegate.png" alt="delegate image">
                 </div>
                 <div class="product-text">
-                  <h3 class="product-title">المندوب - خالد سالم البصري</h3>
+                  <h3 class="product-title">Delegate - Khaled Salem Al-Basri</h3>
                   <ul class="rating-list">
                     <li>
                       <i class="las la-star rate-icon gold"></i>
@@ -532,14 +531,14 @@
                  
                 </div>
                 </div>
-                <textarea class="form-input-1 textarea order-label">اضف ملاحظاتك على المندوب</textarea>
+                <textarea class="form-input-1 textarea order-label">Add your comments to the delegate</textarea>
 
                 <div class="product-details">
                   <div class="supplier-img">
                     <img src="images/delegate.png" alt="delegate image">
                   </div>
                   <div class="product-text">
-                    <h3 class="product-title">المندوب - خالد سالم البصري</h3>
+                    <h3 class="product-title">Delegate - Khaled Salem Al-Basri</h3>
                     <ul class="rating-list">
                       <li>
                         <i class="las la-star rate-icon gray"></i>
@@ -561,11 +560,11 @@
                    
                   </div>
                   </div>
-                  <textarea class="form-input-1 textarea order-label">اضف ملاحظاتك على المندوب</textarea>
+                  <textarea class="form-input-1 textarea order-label">Add your comments to the delegate</textarea>
             </div>
             <div class="modal-btns">
-              <button type="submit" class="submit-btn">إرسال</button>
-              <button type="button" class="cancel-btn" data-dismiss="modal">إلغاء</button>
+              <button type="submit" class="submit-btn">send</button>
+              <button type="button" class="cancel-btn" data-dismiss="modal">cancel</button>
               
             </div>
             </form>
@@ -575,13 +574,11 @@
                 </div>
               </div>
             </div>
-              <a href="checkout.html" class="submit-btn submit-2">
-                إعادة الطلب
+              <a href="checkout-en.html" class="submit-btn submit-2">
+               reorder
               </a>
               </div>
           </div>
-         
-
         </div>
       </div>
     </div>
@@ -590,7 +587,7 @@
     <footer class="footer-div">
       <div class="container">
         <div class="footer-content">
-          <span class="copy-right"> © مؤسسة البيضة الذكية 2023 - جميع الحقوق محفوظة </span>
+          <span class="copy-right"> © Smart Egg Foundation 2023 - All rights reserved </span>
           <div class="social-section">
             <ul class="social-list">
               <li>
@@ -619,7 +616,7 @@
                 </a>
               </li>
             </ul>
-            <a href="contact.html" class="contact-link"> تواصل معنا </a>
+            <a href="contact-en.html" class="contact-link"> contact us </a>
           </div>
         </div>
       </div>

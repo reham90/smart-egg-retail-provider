@@ -1167,7 +1167,10 @@ html[dir="ltr"] .date-input {
 	color: #9B9B9B;
 	font-size: 14px;
 }
-
+.not-date-bar{
+	display: flex;
+	gap: 11px;
+}
 .upload__btn {
 	width: 315px;
 	height: 48px;
@@ -1624,6 +1627,16 @@ select {
 #cancelOrderModal .modal-dialog{
 	width: 375px;
 }
+#ratingModal .modal-dialog{
+	width: 600px;
+}
+.supplier-img{
+	width: 57px;
+	height: 57px;
+}
+.supplier-img img{
+	width: 100%;
+}
 .rating-list{
 	display: flex;
 	gap: 3px;
@@ -2067,6 +2080,7 @@ font-size: 12px;
 	margin: 30px 0 0;
 	display: flex;
 	justify-content: end;
+	gap:10px;
 }
 
 
@@ -3128,6 +3142,14 @@ html[dir="ltr"] .search-icon {
 	color: #fff;
 	text-decoration: none;
 }
+.charge-link-2:hover{
+	background-color: #fff;
+	color: var(--main-color);
+}
+.history-icon{
+	font-size: 18px;
+	color: #9B9B9B;
+}
 .wallet-label{
 	width: 100%;
 	font-size: 14px;
@@ -3295,10 +3317,14 @@ html[dir="ltr"] .search-icon {
 .wallet-price{
 	color: var(--main-color);
 	font-size: 16px;
-	display: block;
+	display: flexs;
 	text-align: start;
 	margin: 0;
+	gap:10px;
 	font-family: "Tajawal-Bold";
+}
+.small-icon{
+	width: 26px;
 }
 .date-bar{
 	display: flex;
@@ -3633,6 +3659,12 @@ html[dir="ltr"] .search-icon {
 	}
 	.cart-btnn-div{
 		justify-content: center;
+	}
+	#cancelOrderModal .modal-dialog{
+		width: 100%;
+	}
+	#ratingModal .modal-dialog{
+		width: 100%;
 	}
 	.pay-grid{
 		grid-template-columns: repeat(1,1fr);
@@ -4048,6 +4080,12 @@ html[dir="ltr"] .search-icon {
 	}
 	.pay-grid{
 		grid-template-columns: repeat(2,1fr);
+	}
+	#cancelOrderModal .modal-dialog{
+		width: 375px;
+	}
+	#ratingModal .modal-dialog{
+		width: 600px;
 	}
 	.dashboard-table-2{
 		width: 60% !important;
