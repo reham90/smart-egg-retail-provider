@@ -1,377 +1,362 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>البيضة الذكية / طلباتي </title>
-    <link rel="icon" href="images/fav.png" type="image/png" />
-    <link rel="stylesheet" href="css/line-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- preloader -->
-    <div class="preloader">
-      <div class="progress">
-        <div class="progress-bar"></div>
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>البيضة الذكية / طلباتي </title>
+      <link rel="icon" href="images/fav.png" type="image/png" />
+      <link rel="stylesheet" href="css/line-awesome.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.css" />
+      <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+      <link rel="stylesheet" href="css/fonts.css" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <!-- preloader -->
+      <div class="preloader">
+         <div class="progress">
+            <div class="progress-bar"></div>
+         </div>
       </div>
-    </div>
-    <!-- preloader -->
-    <!-- header section -->
-    <header>
-      <div class="top-header">
-        <div class="container">
-          <div class="nav-header">
-            <div class="img-logo">
-              <a href="#">
-                <img src="images/fav.png" class="img-responsive" />
-              </a>
-            </div>
-            <div class="header-icons-and-language">
-              <ul class="top-header-list">
-                <li>
-                  <a href="cart.html">
-                    <div class="notification-icon">
-                      <i class="las la-shopping-cart top-header-list-icon"></i>
-                      <span class="notification-no"></span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="notifications.html">
-                    <div class="notification-icon">
-                      <i class="las la-bell top-header-list-icon"></i>
-                      <span class="notification-no"></span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <div class="dropdown dropdown-div">
-                    <button class="dropbtn">
-                      <i class="las la-user top-header-list-icon"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="#">تسجيل خروج </a>
-                      <a href="#"> حذف الحساب </a>
-                    </div>
+      <!-- preloader -->
+      <!-- header section -->
+      <header>
+         <div class="top-header">
+            <div class="container">
+               <div class="nav-header">
+                  <div class="img-logo">
+                     <a href="#">
+                     <img src="images/fav.png" class="img-responsive" />
+                     </a>
                   </div>
-                </li>
-                <li class="hidden-lg hidden-md">
-                  <i class="las la-bars top-header-list-icon menu-id"></i>
-                </li>
-              </ul>
-              <a href="cancelled-en.html" class="language-anchor hidden-xs hidden-sm">English</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end top header-->
-      </div>
-    </header>
-    <!-- header section     -->
-    <!--  dashboard -->
-    <div class="container">
-      <div class="dashboard-section">
-        <div class="navgition">
-          <i class="las la-times menu-id bars-icon hidden-lg hidden-md"></i>
-          <ul class="my-account-list big-menu list-unstyled">
-            <li >
-              <i class="las la-chart-pie nav-icon"></i>
-              <a href="statistics.html"> الإحصائيات </a>
-            </li>
-            <li >
-              <i class="las la-user nav-icon"></i>
-              <a href="profile.html"> الملف الشخصي </a>
-            </li>
-            <li >
-              <i class="las la-border-all nav-icon"></i>
-              <a href="products.html">  منتجاتي </a>
-            </li>
-            <li>
-              <i class="las la-percent nav-icon"></i>
-              <a href="offers.html">  عروضي </a>
-            </li>
-            <li class="active">
-              <i class="las la-clipboard-list nav-icon"></i>
-              <a href="orders.html"> طلباتي </a>
-            </li>
-            <li>
-              <i class="las la-shopping-cart nav-icon"></i>
-              <a href="store.html"> متجر البيضة الذكية </a>
-            </li>
-           
-            <li>
-              <i class="las la-bell nav-icon"></i>
-              <a href="notifications.html"> الإشعارات </a>
-            </li>
-            <li>
-              <i class="las la-wallet nav-icon"></i>
-              <a href="wallet.html"> المحفظة الإلكترونية </a>
-            </li>
-            <li>
-              <i class="las la-history nav-icon"></i>
-              <a href="history.html">  سجل المدفوعات</a>
-            </li>
-          </ul>
-          <a href="cancelled-en.html" class="language-anchor hidden-lg hidden-md">English</a>
-        </div>
-        <div class="dashboard-content">
-          <div class="dashboard-title-bar">
-            <h2 class="dashboard-title">
-              <i class="las la-arrow-right dashboard-title-icon"></i> تفاصيل الطلب #123
-            </h2>
-           <div class="order-btns">
-           
-             <button type="button" class="problem-btn" data-toggle="modal" data-target="#problemModal">   
-              <i class="las la-flag download-icon"></i>
-              الإبلاغ عن مشكلة
-             </button>
-           </div>
-           
-            <!-- Modal -->
-            <div class="modal fade" id="problemModal" tabindex="-1" aria-labelledby="problemModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="problemModalLabel">  سبب الإبلاغ عن مشكلة </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+                  <div class="header-icons-and-language">
+                     <ul class="top-header-list">
+                        <li>
+                           <a href="cart.html">
+                              <div class="notification-icon">
+                                 <i class="las la-shopping-cart top-header-list-icon"></i>
+                                 <span class="notification-no"></span>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="notifications.html">
+                              <div class="notification-icon">
+                                 <i class="las la-bell top-header-list-icon"></i>
+                                 <span class="notification-no"></span>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <div class="dropdown dropdown-div">
+                              <button class="dropbtn">
+                              <i class="las la-user top-header-list-icon"></i>
+                              </button>
+                              <div class="dropdown-content">
+                                 <a href="#">تسجيل خروج </a>
+                                 <a href="#"> حذف الحساب </a>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="hidden-lg hidden-md">
+                           <i class="las la-bars top-header-list-icon menu-id"></i>
+                        </li>
+                     </ul>
+                     <a href="cancelled-en.html" class="language-anchor hidden-xs hidden-sm">English</a>
                   </div>
-                  <div class="modal-body">
-                    <form>
-             <div class="radio-list">
-              <div class="radio-block">
-                <label>
-                  <input type="radio" class="radio-input" name="problem reason">
-                  <span class="checkmark-2"></span>
-                </label>
-                <span class="radio-label"> المنتج غير متوفر</span>
-              </div>
-              <div class="radio-block">
-                <label>
-                  <input type="radio" class="radio-input" name="problem reason">
-                  <span class="checkmark-2"></span>
-                </label>
-                <span class="radio-label"> المنتج غير متوفر</span>
-              </div>
-              <div class="radio-block">
-                <label>
-                  <input type="radio" class="radio-input" name="problem reason">
-                  <span class="checkmark-2"></span>
-                </label>
-                <span class="radio-label"> سبب آخر </span>
-              </div>
-             </div>
-             <textarea class="form-input-1 textarea">ادخل وصف نصي للبلاغ لا يقل عن 250 حرف</textarea>
-             <div class="modal-btns">
-              <button type="submit" class="submit-btn">إرسال</button>
-              <button type="button" class="cancel-btn" data-dismiss="modal">إلغاء</button>
-              
+               </div>
             </div>
-            </form>
-                  </div>
-                  
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-          <ul class="order-list order-list-block">
-            <li>
-              <label class="order-label">
-                <i class="las la-hashtag order-list-icon"></i> رقم الطلب </label> #123
-            </li>
-            <li>
-              <label class="order-label">
-                <i class="las la-calendar order-list-icon"></i> تاريخ الإنشاء   </label> 2023/03/01
-            </li>
-            <li>
-              <label class="order-label">
-                <i class="las la-user order-list-icon"></i> العميل </label> عبدالله صالح
-            </li>
-          </ul>
-          <div class="order-status-block">
-            <label class="order-label">
-              <i class="las la-tag order-list-icon"></i> حالة الطلب </label>
-            <ul class="linked-list">
-              <li class="active">
-                <i class="las la-check linked-list-icon"></i> جاري التجهيز
-                
-              </li>
-              <li >
-                <i class="las la-check linked-list-icon"></i> تم الإلغاء
-              </li>
-              
-              
-            </ul>
-            <label class="order-label order-label-2">
-             سبب الإلغاء
-            </label>
-            <p class="order-text"> هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. </p>
-          
-          </div>
-          <div class="order-status-block">
-            <label class="order-label">
-              <i class="las la-truck order-list-icon"></i> عنوان  التوصيل </label>
-            <p class="order-text"> عبدالله صالح </p>
-            <p class="order-text"> 43 شارع صلاح الدين الأيوبي - الملز - خلف البنك الأهلي </p>
-            <p class="order-text"> 0540000000 </p>
-          </div>
-          <div class="order-status-block">
-            <label class="order-label">
-              <i class="las la-boxes order-list-icon"></i> المنتجات </label>
-            <div class="proposal-block">
-              <div class="product-details">
-                <div class="product-img">
-                  <img class="img-responsive" src="images/big-product.png" alt="product image">
-                </div>
-                <div class="product-text">
-                  <h3 class="product-title">بيض طازج 30 حبة (وسط)</h3>
-                  <span class="company">
-                    <img class="company-icon" src="images/icon.png" alt="company icon">
-                    تموينات برق السعادة
-                  </span>
-                  <span class="order-status-2">
-                    متاح للتوصيل
-                  </span>
-                  <ul class="product-details-list">
-                    <li>
-                      <i class="las la-border-all product-details-list-icon"></i> بيض الدواجن
-                    </li>
-                    <li>
-                      <i class="las la-weight-hanging product-details-list-icon"></i> وسط
-                    </li>
-                  </ul>
-                 
-                </div>
-              </div>
-              <span class="new-price price-no">
-                <span class="product-no">
-                  x2
-                </span>
-                12 ر.س
-              </span>
-            </div>
-            <div class="proposal-block">
-              <div class="product-details">
-                <div class="product-img">
-                  <img class="img-responsive" src="images/offer.png" alt="product image">
-                </div>
-                <div class="product-text">
-                  <h3 class="product-title">عرض الخير بمناسبة شهر رمضان</h3>
-                  <span class="company">
-                    <img class="company-icon" src="images/icon.png" alt="company icon">
-                    تموينات برق السعادة
-                  </span>
-                  <span class="order-status-2">
-                    متاح للتوصيل
-                  </span>
-                  <h3 class="product-title">    بيض طازج 30 حبة (وسط)</h3>
-                  
-                  <ul class="product-details-list">
-                    <li>
-                      <i class="las la-border-all product-details-list-icon"></i> بيض الدواجن
-                    </li>
-                    <li>
-                      <i class="las la-weight-hanging product-details-list-icon"></i> وسط
-                    </li>
-                  </ul>
-                  <h3 class="product-title">  دجاج طازج 1000 جرام</h3>
-                  <ul class="product-details-list">
-                    <li>
-                      <i class="las la-border-all product-details-list-icon"></i> لحوم الدواجن
-                    </li>
-                    <li>
-                      <i class="las la-weight-hanging product-details-list-icon"></i> 1000 جرام
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <span class="new-price price-no">
-                <span class="product-no">
-                  x2
-                </span>
-                12 ر.س
-              </span>
-            </div>
-          </div>
-          <div class="order-status-block">
-            <ul class="total-list">
-              <li>
-                <span class="total-list-text"> اجمالي المنتجات </span>
-                <span class="total-list-text"> 3600 ر.س </span>
-              </li>
-              <li>
-                <span class="total-list-text"> خصم كوبون التخفيض</span>
-                <span class="total-list-text"> 3600 ر.س </span>
-              </li>
-              <li>
-                <span class="total-list-text"> إجمالي التكلفة بعد الخصم</span>
-                <span class="total-list-text"> 3600 ر.س </span>
-              </li>
-            
-              <li>
-                <span class="total-list-text"> الإجمالي المستحق </span>
-                <span class="total-list-text"> 3600 ر.س </span>
-              </li>
-            </ul>
-          </div>
-         
-
-        </div>
-      </div>
-    </div>
-    <!-- dashboard -->
-    <!-- footer section -->
-    <footer class="footer-div">
+         </div>
+         <!-- end top header-->
+         </div>
+      </header>
+      <!-- header section     -->
+      <!--  dashboard -->
       <div class="container">
-        <div class="footer-content">
-          <span class="copy-right"> © مؤسسة البيضة الذكية 2023 - جميع الحقوق محفوظة </span>
-          <div class="social-section">
-            <ul class="social-list">
-              <li>
-                <a href="#" class="social-icon">
-                  <i class="lab la-telegram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="social-icon">
-                  <i class="lab la-youtube"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="social-icon">
-                  <i class="lab la-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="social-icon">
-                  <i class="lab la-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="social-icon">
-                  <i class="lab la-facebook-f"></i>
-                </a>
-              </li>
-            </ul>
-            <a href="contact.html" class="contact-link"> تواصل معنا </a>
-          </div>
-        </div>
+         <div class="dashboard-section">
+            <div class="navgition">
+               <i class="las la-times menu-id bars-icon hidden-lg hidden-md"></i>
+               <ul class="my-account-list big-menu list-unstyled">
+                  <li >
+                     <i class="las la-chart-pie nav-icon"></i>
+                     <a href="statistics.html"> الإحصائيات </a>
+                  </li>
+                  <li >
+                     <i class="las la-user nav-icon"></i>
+                     <a href="profile.html"> الملف الشخصي </a>
+                  </li>
+                  <li >
+                     <i class="las la-border-all nav-icon"></i>
+                     <a href="products.html">  منتجاتي </a>
+                  </li>
+                  <li>
+                     <i class="las la-percent nav-icon"></i>
+                     <a href="offers.html">  عروضي </a>
+                  </li>
+                  <li class="active">
+                     <i class="las la-clipboard-list nav-icon"></i>
+                     <a href="orders.html"> طلباتي </a>
+                  </li>
+                  <li>
+                     <i class="las la-shopping-cart nav-icon"></i>
+                     <a href="store.html"> متجر البيضة الذكية </a>
+                  </li>
+                  <li>
+                     <i class="las la-bell nav-icon"></i>
+                     <a href="notifications.html"> الإشعارات </a>
+                  </li>
+                  <li>
+                     <i class="las la-wallet nav-icon"></i>
+                     <a href="wallet.html"> المحفظة الإلكترونية </a>
+                  </li>
+                  <li>
+                     <i class="las la-history nav-icon"></i>
+                     <a href="history.html">  سجل المدفوعات</a>
+                  </li>
+               </ul>
+               <a href="cancelled-en.html" class="language-anchor hidden-lg hidden-md">English</a>
+            </div>
+            <div class="dashboard-content">
+               <div class="dashboard-title-bar">
+                  <h2 class="dashboard-title">
+                     <i class="las la-arrow-right dashboard-title-icon"></i> تفاصيل الطلب #123
+                  </h2>
+                  <div class="order-btns">
+                     <button type="button" class="problem-btn" data-toggle="modal" data-target="#problemModal">   
+                     <i class="las la-flag download-icon"></i>
+                     الإبلاغ عن مشكلة
+                     </button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="problemModal" tabindex="-1" aria-labelledby="problemModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="problemModalLabel">  سبب الإبلاغ عن مشكلة </h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <form>
+                                 <div class="radio-list">
+                                    <div class="radio-block">
+                                       <label>
+                                       <input type="radio" class="radio-input" name="problem reason">
+                                       <span class="checkmark-2"></span>
+                                       </label>
+                                       <span class="radio-label"> المنتج غير متوفر</span>
+                                    </div>
+                                    <div class="radio-block">
+                                       <label>
+                                       <input type="radio" class="radio-input" name="problem reason">
+                                       <span class="checkmark-2"></span>
+                                       </label>
+                                       <span class="radio-label"> المنتج غير متوفر</span>
+                                    </div>
+                                    <div class="radio-block">
+                                       <label>
+                                       <input type="radio" class="radio-input" name="problem reason">
+                                       <span class="checkmark-2"></span>
+                                       </label>
+                                       <span class="radio-label"> سبب آخر </span>
+                                    </div>
+                                 </div>
+                                 <textarea class="form-input-1 textarea">ادخل وصف نصي للبلاغ لا يقل عن 250 حرف</textarea>
+                                 <div class="modal-btns">
+                                    <button type="submit" class="submit-btn">إرسال</button>
+                                    <button type="button" class="cancel-btn" data-dismiss="modal">إلغاء</button>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <ul class="order-list order-list-block">
+                  <li>
+                     <label class="order-label">
+                     <i class="las la-hashtag order-list-icon"></i> رقم الطلب </label> #123
+                  </li>
+                  <li>
+                     <label class="order-label">
+                     <i class="las la-calendar order-list-icon"></i> تاريخ الإنشاء   </label> 2023/03/01
+                  </li>
+                  <li>
+                     <label class="order-label">
+                     <i class="las la-user order-list-icon"></i> العميل </label> عبدالله صالح
+                  </li>
+               </ul>
+               <div class="order-status-block">
+                  <label class="order-label">
+                  <i class="las la-tag order-list-icon"></i> حالة الطلب </label>
+                  <ul class="linked-list">
+                     <li class="active">
+                        <i class="las la-check linked-list-icon"></i> جاري التجهيز
+                     </li>
+                     <li >
+                        <i class="las la-check linked-list-icon"></i> تم الإلغاء
+                     </li>
+                  </ul>
+                  <label class="order-label order-label-2">
+                  سبب الإلغاء
+                  </label>
+                  <p class="order-text"> هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. </p>
+               </div>
+               <div class="order-status-block">
+                  <label class="order-label">
+                  <i class="las la-truck order-list-icon"></i> عنوان  التوصيل </label>
+                  <p class="order-text"> عبدالله صالح </p>
+                  <p class="order-text"> 43 شارع صلاح الدين الأيوبي - الملز - خلف البنك الأهلي </p>
+                  <p class="order-text"> 0540000000 </p>
+               </div>
+               <div class="order-status-block">
+                  <label class="order-label">
+                  <i class="las la-boxes order-list-icon"></i> المنتجات </label>
+                  <div class="proposal-block">
+                     <div class="product-details">
+                        <div class="product-img">
+                           <img class="img-responsive" src="images/big-product.png" alt="product image">
+                        </div>
+                        <div class="product-text">
+                           <h3 class="product-title">بيض طازج 30 حبة (وسط)</h3>
+                           <span class="company">
+                           <img class="company-icon" src="images/icon.png" alt="company icon">
+                           تموينات برق السعادة
+                           </span>
+                           <span class="order-status-2">
+                           متاح للتوصيل
+                           </span>
+                           <ul class="product-details-list">
+                              <li>
+                                 <i class="las la-border-all product-details-list-icon"></i> بيض الدواجن
+                              </li>
+                              <li>
+                                 <i class="las la-weight-hanging product-details-list-icon"></i> وسط
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <span class="new-price price-no">
+                     <span class="product-no">
+                     x2
+                     </span>
+                     12 ر.س
+                     </span>
+                  </div>
+                  <div class="proposal-block">
+                     <div class="product-details">
+                        <div class="product-img">
+                           <img class="img-responsive" src="images/offer.png" alt="product image">
+                        </div>
+                        <div class="product-text">
+                           <h3 class="product-title">عرض الخير بمناسبة شهر رمضان</h3>
+                           <span class="company">
+                           <img class="company-icon" src="images/icon.png" alt="company icon">
+                           تموينات برق السعادة
+                           </span>
+                           <span class="order-status-2">
+                           متاح للتوصيل
+                           </span>
+                           <h3 class="product-title">    بيض طازج 30 حبة (وسط)</h3>
+                           <ul class="product-details-list">
+                              <li>
+                                 <i class="las la-border-all product-details-list-icon"></i> بيض الدواجن
+                              </li>
+                              <li>
+                                 <i class="las la-weight-hanging product-details-list-icon"></i> وسط
+                              </li>
+                           </ul>
+                           <h3 class="product-title">  دجاج طازج 1000 جرام</h3>
+                           <ul class="product-details-list">
+                              <li>
+                                 <i class="las la-border-all product-details-list-icon"></i> لحوم الدواجن
+                              </li>
+                              <li>
+                                 <i class="las la-weight-hanging product-details-list-icon"></i> 1000 جرام
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <span class="new-price price-no">
+                     <span class="product-no">
+                     x2
+                     </span>
+                     12 ر.س
+                     </span>
+                  </div>
+               </div>
+               <div class="order-status-block">
+                  <ul class="total-list">
+                     <li>
+                        <span class="total-list-text"> اجمالي المنتجات </span>
+                        <span class="total-list-text"> 3600 ر.س </span>
+                     </li>
+                     <li>
+                        <span class="total-list-text"> خصم كوبون التخفيض</span>
+                        <span class="total-list-text"> 3600 ر.س </span>
+                     </li>
+                     <li>
+                        <span class="total-list-text"> إجمالي التكلفة بعد الخصم</span>
+                        <span class="total-list-text"> 3600 ر.س </span>
+                     </li>
+                     <li>
+                        <span class="total-list-text"> الإجمالي المستحق </span>
+                        <span class="total-list-text"> 3600 ر.س </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
       </div>
-    </footer>
-    <!-- footer section -->
-    <!-- arrow to top -->
-    <a class="arrow-top">
+      <!-- dashboard -->
+      <!-- footer section -->
+      <footer class="footer-div">
+         <div class="container">
+            <div class="footer-content">
+               <span class="copy-right"> © مؤسسة البيضة الذكية 2023 - جميع الحقوق محفوظة </span>
+               <div class="social-section">
+                  <ul class="social-list">
+                     <li>
+                        <a href="#" class="social-icon">
+                        <i class="lab la-telegram"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" class="social-icon">
+                        <i class="lab la-youtube"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" class="social-icon">
+                        <i class="lab la-instagram"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" class="social-icon">
+                        <i class="lab la-twitter"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" class="social-icon">
+                        <i class="lab la-facebook-f"></i>
+                        </a>
+                     </li>
+                  </ul>
+                  <a href="contact.html" class="contact-link"> تواصل معنا </a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- footer section -->
+      <!-- arrow to top -->
+      <a class="arrow-top">
       <i class="las la-arrow-up"></i>
-    </a>
-    <!-- arrow to top -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+      </a>
+      <!-- arrow to top -->
+      <script src="js/jquery-2.1.1.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+   </body>
 </html>

@@ -28,9 +28,10 @@ body {
 
 }
 
-.p-0{
+.p-0 {
 	padding: 0;
 }
+
 .language-anchor {
 	color: var(--main-color);
 	font-size: 14px;
@@ -42,7 +43,6 @@ body {
 	color: var(--main-hover);
 	text-decoration: none;
 }
-
 
 
 img {
@@ -362,52 +362,64 @@ header {
 	border-radius: 50%;
 	inset-inline-start: 0;
 }
-html[dir="ltr"] .notification-no{
+
+html[dir="ltr"] .notification-no {
 	inset-inline-start: unset;
-    inset-inline-end: 0;
+	inset-inline-end: 0;
 }
-.profile-img-bar{
+
+.profile-img-bar {
 	display: flex;
 	justify-content: center;
 	margin: 0 0 50px;
 }
-.profile-image{
+
+.profile-image {
 	width: 106px;
 	height: 106px;
 	border-radius: 50%;
 }
-.profile-img{
+
+.profile-img {
 	width: 100%;
 	border-radius: 50%;
 }
-.form-grid-2{
+
+.form-grid-2 {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 31px;
 	margin: 0 0 12px;
 }
-.form-grid-2 .form-input-1{
+
+.form-grid-2 .form-input-1 {
 	width: 100%;
 	padding: 0 22px;
 }
-.form-grid-2 .upload-images{
+
+.form-grid-2 .upload-images {
 	background-color: var(--main-hover) !important;
 	color: var(--main-color);
 }
-.form-grid-2 .upload__btn{
+
+.form-grid-2 .upload__btn {
 	width: 100%;
 }
-.working-days-bar{
+
+.working-days-bar {
 	margin: 0 0 22px;
 }
-.working-days-bar .week-list{
+
+.working-days-bar .week-list {
 	flex-direction: row;
-    max-height: max-content;
-    flex-wrap: nowrap;
+	max-height: max-content;
+	flex-wrap: nowrap;
 }
-.form-grid-3{
+
+.form-grid-3 {
 	margin-top: 76px !important;
 }
+
 .big-menu li a:hover {
 	color: var(--main-color);
 
@@ -558,17 +570,21 @@ html[dir="ltr"] .notification-no{
 	text-align: center;
 	margin-top: 20px;
 }
-.value-div{
+
+.value-div {
 	padding: 42px 0 0;
 }
-.dashboard-table-2{
+
+.dashboard-table-2 {
 	width: 45% !important;
 }
+
 .dashboard-table tr:nth-of-type(even) {
-    background-color: #F5F5F5;
+	background-color: #F5F5F5;
 }
+
 .dashboard-table tr:nth-of-type(odd) {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -576,21 +592,24 @@ html[dir="ltr"] .notification-no{
 	.logo-bar {
 		margin: 40px 0;
 	}
-	
+
 	.body-bg {
 		display: flex !important;
 		flex-wrap: wrap !important;
 
 	}
-	.form-grid-2{
-		grid-template-columns: repeat(1,1fr);
-		gap:15px;
+
+	.form-grid-2 {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 15px;
 	}
+
 	.working-days-bar .week-list {
 		flex-direction: column;
 		max-height: 140px;
 		flex-wrap: wrap;
 	}
+
 	.product-det {
 		flex-wrap: wrap;
 		gap: 10px;
@@ -614,8 +633,6 @@ html[dir="ltr"] .notification-no{
 	.order-table {
 		padding: 30px 20px !important;
 	}
-
-	
 
 
 	.table-head th {
@@ -669,10 +686,6 @@ html[dir="ltr"] .notification-no{
 		position: relative;
 
 	}
-
-
-	
-
 
 
 	.show-icons {
@@ -813,8 +826,6 @@ html[dir="ltr"] .date-input {
 }
 
 
-
-
 .dashboard-content {
 	width: 100%;
 }
@@ -824,15 +835,10 @@ html[dir="ltr"] .date-input {
 } */
 
 
-
-
 .product-text {
 	padding: 10px;
 
 }
-
-
-
 
 
 /*                                   footer                            */
@@ -851,7 +857,6 @@ html[dir="ltr"] .date-input {
 
 
 /*                                   footer                            */
-
 
 
 /*        login                  */
@@ -922,17 +927,20 @@ html[dir="ltr"] .date-input {
 	margin: 0 auto;
 
 }
-.register-radio-section{
+
+.register-radio-section {
 	width: 314px;
 	margin: 0 auto;
 }
-.register-radio-content{
+
+.register-radio-content {
 	display: flex;
 	flex-direction: column;
-	gap:10px;
+	gap: 10px;
 	margin: 0 0 20px;
 }
-.radio-block-2{
+
+.radio-block-2 {
 	display: flex;
 	border: 1.5px solid #E9E9E9;
 	border-radius: 10px;
@@ -945,22 +953,25 @@ html[dir="ltr"] .date-input {
 .register-section-content .form-title-2 {
 	margin: 0 0 20px;
 }
- .form-title-3{
+
+.form-title-3 {
 	text-align: center;
 	margin: 0 0 10px;
 	color: var(--main-color);
 	font-size: 20px;
-	
+
 	font-family: "Tajawal-Bold";
 	width: 100%;
 }
-.form-text-2{
+
+.form-text-2 {
 	color: var(--main-color);
 	font-size: 20px;
 	margin: 0 0 30px;
 	text-align: center;
 	font-family: "Tajawal-Medium";
 }
+
 .form-label {
 	color: var(--main-color);
 	text-align: start;
@@ -1167,10 +1178,12 @@ html[dir="ltr"] .date-input {
 	color: #9B9B9B;
 	font-size: 14px;
 }
-.not-date-bar{
+
+.not-date-bar {
 	display: flex;
 	gap: 11px;
 }
+
 .upload__btn {
 	width: 315px;
 	height: 48px;
@@ -1240,29 +1253,35 @@ html[dir="ltr"] .date-input {
 	color: #9B9B9B;
 	font-size: 14px;
 }
-.payment-btns{
+
+.payment-btns {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-.shop-more{
+
+.shop-more {
 	background-color: #E6E6E6;
 }
-.pay-list{
+
+.pay-list {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
 }
-.pay-list-span{
+
+.pay-list-span {
 	display: flex;
 	align-items: center;
 	margin: 0;
 	gap: 8px;
 }
-.pay-list-span img{
+
+.pay-list-span img {
 	display: flex;
 	flex-shrink: 0;
 }
+
 .form-input-1:focus {
 	border: 2px solid var(--main-color);
 	outline: none;
@@ -1307,35 +1326,40 @@ input[type=number] {
 	transform: translateY(-50%);
 	inset-inline-end: 20px;
 }
+
 .upload__img-wrap {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
 }
+
 .upload__img-box {
-    width: 57px;
+	width: 57px;
 }
+
 .img-bg {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 100%;
 }
+
 .upload__img-close {
-    width: 16px;
-    height: 16px;
-    background-color: #F25050;
-    position: absolute;
-    top: 0;
-    inset-inline-start: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    cursor: pointer;
+	width: 16px;
+	height: 16px;
+	background-color: #F25050;
+	position: absolute;
+	top: 0;
+	inset-inline-start: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	cursor: pointer;
 }
-.order-statuss{
+
+.order-statuss {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1346,31 +1370,39 @@ input[type=number] {
 	font-size: 10px;
 	font-family: "Tajawal-Bold";
 }
-.processing{
-	background-color: #E9CA00 ;
+
+.processing {
+	background-color: #E9CA00;
 }
-.waiting{
+
+.waiting {
 	background-color: #F49025;
 }
-.delivering{
+
+.delivering {
 	background-color: #34B7EA;
 }
-.delivered{
+
+.delivered {
 	background-color: #4BD12A;
 }
-.problem{
+
+.problem {
 	background-color: #F8324A;
 }
-.cancelled-2{
+
+.cancelled-2 {
 	background-color: #B4B4B4;
 }
+
 .upload__img-close:after {
-    content: "";
-    font-size: 11px;
-    color: #fff;
-    font-family: "Line Awesome Free";
-    font-weight: 700;
+	content: "";
+	font-size: 11px;
+	color: #fff;
+	font-family: "Line Awesome Free";
+	font-weight: 700;
 }
+
 .forget-password-link {
 	font-size: 14px;
 	color: #9B9B9B;
@@ -1414,7 +1446,6 @@ input[type=number] {
 }
 
 
-
 .register-form .form-input-1 {
 	padding-inline-start: 27px;
 	margin-bottom: 0;
@@ -1451,7 +1482,6 @@ select {
 }
 
 /*                        register                      */
-
 
 
 .check-label-radio {
@@ -1534,11 +1564,12 @@ select {
 	font-family: "Tajawal-Medium";
 }
 
-.radio-label-2{
+.radio-label-2 {
 	font-size: 16px;
 	font-family: "Tajawal-Bold";
 }
-.radio-2{
+
+.radio-2 {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -1584,20 +1615,23 @@ select {
 .dashboard-title-icon {
 	font-size: 20px;
 }
-.order-btns{
+
+.order-btns {
 	display: flex;
 	gap: 5px;
 }
-.download-icon{
+
+.download-icon {
 	font-size: 16px;
 }
+
 .download-btn {
 	background-color: var(--main-hover);
 	color: var(--main-color);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap:6px;
+	gap: 6px;
 	padding: 0;
 	outline: none;
 	border: 0;
@@ -1624,42 +1658,51 @@ select {
 #problemModal .modal-dialog {
 	width: 375px;
 }
-#cancelOrderModal .modal-dialog{
+
+#cancelOrderModal .modal-dialog {
 	width: 375px;
 }
-#ratingModal .modal-dialog{
+
+#ratingModal .modal-dialog {
 	width: 600px;
 }
-.supplier-img{
+
+.supplier-img {
 	width: 57px;
 	height: 57px;
 }
-.supplier-img img{
+
+.supplier-img img {
 	width: 100%;
 }
-.rating-list{
+
+.rating-list {
 	display: flex;
 	gap: 3px;
 	list-style: none;
-	margin: 0 ;
+	margin: 0;
 	padding: 0;
 }
-.rate-icon{
+
+.rate-icon {
 	font-size: 16px;
 }
-.gold{
+
+.gold {
 	color: #E9CA00;
 }
-.gray{
+
+.gray {
 	color: #CFCFCF;
 }
+
 .problem-btn {
 	background-color: #EEEEEE;
 	color: #9B9B9B;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap:6px;
+	gap: 6px;
 	padding: 0;
 	outline: none;
 	border: 0;
@@ -1682,32 +1725,38 @@ select {
 	outline: none;
 	border: 0;
 }
-.change-address-link{
+
+.change-address-link {
 	width: 110px;
-height: 30px;
-margin: 10px 0 0;
-font-size: 12px;
+	height: 30px;
+	margin: 10px 0 0;
+	font-size: 12px;
 }
-.order-text-2{
+
+.order-text-2 {
 	color: #9B9B9B !important;
 }
-.pay-bar{
+
+.pay-bar {
 	background-color: #EEEEEE;
 	display: flex;
 	justify-content: space-between;
 	padding: 9px 13px;
 	margin: 0 0 30px;
 }
-.pay-bar-label{
+
+.pay-bar-label {
 	color: var(--main-color);
 	text-align: start;
 	margin: 0;
 	font-size: 12px;
 	font-family: "Tajawal-Medium";
 }
-.pay-bar .new-price{
+
+.pay-bar .new-price {
 	font-size: 14px;
 }
+
 .proposal-block {
 	display: flex;
 	align-items: flex-start;
@@ -1720,20 +1769,24 @@ font-size: 12px;
 	align-items: flex-start;
 	gap: 15px;
 }
-.order-label-2{
+
+.order-label-2 {
 	margin-top: 20px !important;
 }
-.product-no{
+
+.product-no {
 	color: #B4B4B4;
 	font-size: 14px;
 	font-family: "Tajawal-Medium";
 }
-.price-no{
+
+.price-no {
 	display: flex !important;
 	align-items: center;
-	gap:10px;
+	gap: 10px;
 }
-.company{
+
+.company {
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -1742,13 +1795,15 @@ font-size: 12px;
 	font-size: 12px;
 	font-family: "Tajawal-Medium";
 }
-.company-icon{
+
+.company-icon {
 	width: 22px;
 	height: 22px;
 	display: flex;
 	flex-shrink: 0;
 }
-.order-status-2{
+
+.order-status-2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1761,9 +1816,10 @@ font-size: 12px;
 	margin: 0;
 	padding: 0 9px;
 	width: max-content;
-	gap:4px;
+	gap: 4px;
 }
-.order-status-block .order-list-block{
+
+.order-status-block .order-list-block {
 	border-bottom: 0;
 }
 
@@ -1924,47 +1980,59 @@ font-size: 12px;
 .product-details-list-label {
 	font-family: "Tajawal-Bold";
 }
-.submit-2{
+
+.submit-2 {
 	width: 200px;
 }
+
 .proposal-inputs {
 	display: flex;
 	gap: 20px;
 }
-.control-btns{
+
+.control-btns {
 	display: flex;
 	gap: 5px;
 }
-.product-content{
+
+.product-content {
 	display: flex;
 	gap: 30px;
 }
-.form-3{
+
+.form-3 {
 	margin: 0 0 40px;
 }
-.offer-img{
+
+.offer-img {
 	width: 316px;
 }
-.offer-image{
+
+.offer-image {
 	width: 100%;
 }
-.offer-title{
+
+.offer-title {
 	color: var(--main-color);
 	text-align: start;
 	margin: 0 0 11px;
 	font-size: 18px;
 	font-family: "Tajawal-Medium";
 }
-.offer-text-section .price-div{
+
+.offer-text-section .price-div {
 	margin: 0 0 15px;
 }
-.offer-text-section .new-price{
+
+.offer-text-section .new-price {
 	font-size: 20px;
 }
-.offer-text-section .old-price{
+
+.offer-text-section .old-price {
 	font-size: 16px;
 }
-.offer-list{
+
+.offer-list {
 	display: flex;
 	list-style: none;
 	margin: 0 0 20px;
@@ -1972,12 +2040,14 @@ font-size: 12px;
 	flex-direction: column;
 	gap: 6px;
 }
-.offer-list li{
+
+.offer-list li {
 	display: grid;
-	gap:30px;
-	grid-template-columns: repeat(2,1fr);
+	gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
 }
-.offer-label{
+
+.offer-label {
 	font-size: 14px;
 	color: var(--main-color);
 	font-family: "Tajawal-Bold";
@@ -1987,47 +2057,56 @@ font-size: 12px;
 	margin: 0;
 	text-align: start;
 }
-.offer-answer{
+
+.offer-answer {
 	font-size: 14px;
 	color: var(--main-color);
-	
+	position: relative !important;
 	margin: 0;
 	text-align: start;
 }
-.offer-list-icon{
+
+.offer-list-icon {
 	color: #B4B4B4;
 	font-size: 18px;
 }
-.offer-text{
+
+.offer-text {
 	margin: 0 0 42px;
 	color: #9B9B9B;
 	text-align: start;
 	font-size: 14px;
 	font-family: "Tajawal-Medium";
-	
+
 }
-.small-offer-title{
+
+.small-offer-title {
 	color: var(--main-color);
 	text-align: start;
 	font-size: 14px;
 	font-family: "Tajawal-Bold";
 	margin: 0 0 15px;
 }
-.offer-grid{
+
+.offer-grid {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	gap:20px;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
 }
-.offer-grid .offer-label{
+
+.offer-grid .offer-label {
 	font-size: 12px;
 	font-family: "Tajawal-Regular";
 }
-.offer-grid .offer-list{
+
+.offer-grid .offer-list {
 	margin: 0;
 }
-.offer-grid .offer-list li{
+
+.offer-grid .offer-list li {
 	display: flex;
 }
+
 .proposal-inputs .form-label {
 	font-size: 13px;
 	margin: 0 0 8px;
@@ -2065,7 +2144,8 @@ font-size: 12px;
 .order-status-block .order-list-icon {
 	color: var(--main-color);
 }
-.proposal-block .delete-product{
+
+.proposal-block .delete-product {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2076,11 +2156,12 @@ font-size: 12px;
 	color: #C0C0C0;
 	font-size: 15px;
 }
-.cart-btnn-div{
+
+.cart-btnn-div {
 	margin: 30px 0 0;
 	display: flex;
 	justify-content: end;
-	gap:10px;
+	gap: 10px;
 }
 
 
@@ -2134,6 +2215,7 @@ font-size: 12px;
 .linked-list li.active .linked-list-icon {
 	background-color: #2EAA0F;
 }
+
 .linked-list li.has-problem .linked-list-icon {
 	background-color: rgba(248, 50, 74, 1);
 }
@@ -2141,46 +2223,56 @@ font-size: 12px;
 .linked-list li:not(:last-child).active .linked-list-icon::after {
 	background-color: #2EAA0F;
 }
+
 .linked-list li:not(:last-child).has-problem-2 .linked-list-icon::after {
-	background-color: rgba(248, 50, 74, 1) ;
+	background-color: rgba(248, 50, 74, 1);
 }
-.has-problem{
+
+.has-problem {
 	color: rgba(248, 50, 74, 1) !important;
 }
-.delegate-img{
+
+.delegate-img {
 	width: 57px;
 	height: 57px;
 	display: flex;
 	flex-shrink: 0;
 }
-.car-img{
+
+.car-img {
 	color: rgba(248, 50, 74, 1);
 	font-size: 13px;
 	text-decoration: underline;
 	transition: 0.5s;
 	width: 100%;
 }
-.car-img:hover{
+
+.car-img:hover {
 	color: var(--main-color);
 	text-decoration: underline;
 }
-.order-label-3{
+
+.order-label-3 {
 	font-size: 13px;
 	margin: 0 !important;
 }
-.order-status-block .order-list{
+
+.order-status-block .order-list {
 	white-space: nowrap;
 }
-.mob-icon{
+
+.mob-icon {
 	font-size: 14px;
 }
-.counter-bar{
+
+.counter-bar {
 	display: flex;
 	align-items: center;
 	gap: 7px;
 	margin-top: 10px;
 }
-.cart-btn{
+
+.cart-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2196,83 +2288,95 @@ font-size: 12px;
 	outline: none;
 	padding: 0;
 }
-.cart-btn:hover{
+
+.cart-btn:hover {
 	background-color: var(--main-color);
 	color: #fff;
 }
-.cart-btn:focus{
+
+.cart-btn:focus {
 	background-color: var(--main-color);
 	color: #fff;
 	outline: none;
 	border: 0;
 }
-.market-section{
+
+.market-section {
 	padding: 60px 0 0;
 }
-.market-arrow{
+
+.market-arrow {
 	font-size: 14px;
 }
-.up{
+
+.up {
 	color: #F8324A;
 }
-.down{
+
+.down {
 	color: #4BD12A;
 }
+
 .counter-div {
-    display: flex;
-    align-items: center;
-    border: 1px solid #E3E3E3;
-    border-radius: 31px;
-    
-    width: 113px;
-    justify-content: space-between;
-    height: 32px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #E3E3E3;
+	border-radius: 31px;
+
+	width: 113px;
+	justify-content: space-between;
+	height: 32px;
 }
+
 .plus {
-    font-size: 16px;
-    color: #9B9B9B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    background-color: #E3E3E3;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.5s;
-    margin-inline-start: 5px;
+	font-size: 16px;
+	color: #9B9B9B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	background-color: #E3E3E3;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-inline-start: 5px;
 }
-.plus:hover{
+
+.plus:hover {
 	background-color: var(--main-color);
 	color: #fff;
 }
+
 .cart-input {
-    background-color: transparent;
-    border: 0;
-    outline: none;
-    color: var(--main-color);
-    font-size: 16px;
+	background-color: transparent;
+	border: 0;
+	outline: none;
+	color: var(--main-color);
+	font-size: 16px;
 	font-family: "Tajawal-Medium";
-    width: 55px;
-    text-align: center;
+	width: 55px;
+	text-align: center;
 }
+
 .minus {
-    font-size: 16px;
-    color: #9B9B9B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    background-color: #E3E3E3;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.5s;
-    margin-inline-end: 5px;
+	font-size: 16px;
+	color: #9B9B9B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	background-color: #E3E3E3;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-inline-end: 5px;
 }
-.minus:hover{
+
+.minus:hover {
 	background-color: var(--main-color);
 	color: #fff;
 }
@@ -2471,10 +2575,6 @@ html[dir="ltr"] .search-icon {
 }
 
 
-
-
-
-
 .total-cart {
 	padding: 54px 0 0;
 }
@@ -2492,8 +2592,6 @@ html[dir="ltr"] .search-icon {
 	text-align: start;
 	display: flex;
 }
-
-
 
 
 /*                        cart page                         */
@@ -2687,6 +2785,11 @@ html[dir="ltr"] .search-icon {
 	align-items: center;
 }
 
+.contact-content .social-list {
+	margin: 0 0 60px;
+	gap: 10px;
+}
+
 .social-icon {
 	display: flex;
 	align-items: center;
@@ -2701,10 +2804,22 @@ html[dir="ltr"] .search-icon {
 	font-size: 16px;
 }
 
+.contact-content .social-icon {
+	width: 40px;
+	height: 40px;
+	background-color: #FBF5CC;
+	font-size: 24px;
+	color: var(--main-color);
+}
+
 .social-icon:hover {
 	text-decoration: none;
 	background-color: var(--main-color);
 	color: #fff;
+}
+
+.form-input-2 {
+	padding-inline-start: 54px !important;
 }
 
 .contact-link {
@@ -2735,17 +2850,13 @@ html[dir="ltr"] .search-icon {
 }
 
 
-
-
 /*                               edit user page                                     */
-
 
 
 .order-title-div {
 	display: flex;
 	align-items: baseline;
 }
-
 
 
 .status-btn {
@@ -2781,7 +2892,7 @@ html[dir="ltr"] .search-icon {
 	white-space: nowrap;
 }
 
-.dashboard-table-2 .table-record td{
+.dashboard-table-2 .table-record td {
 	font-size: 16px;
 	font-family: "Tajawal-Medium";
 }
@@ -2899,13 +3010,13 @@ html[dir="ltr"] .search-icon {
 .notification-block {
 	margin-bottom: 10px;
 	padding: 15px 20px;
-	gap:13px;
+	gap: 13px;
 	border-radius: 20px;
 	display: flex;
 	box-shadow: 0px 3px 6px #0000001A;
 }
 
-.delete-all-btn{
+.delete-all-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2917,29 +3028,35 @@ html[dir="ltr"] .search-icon {
 	width: 106px;
 	height: 32px;
 	border-radius: 16px;
-	color: #9B9B9B ;
-	font-size: 14px;;
+	color: #9B9B9B;
+	font-size: 14px;
+	;
 	background-color: #EEEEEE;
 	font-family: "Tajawal-Medium";
 }
-.trash-icon{
+
+.trash-icon {
 	font-size: 16px;
 }
-.delete-all-btn:hover{
+
+.delete-all-btn:hover {
 	background-color: var(--main-color);
 	color: #fff;
 }
-.delete-all-btn:focus{
+
+.delete-all-btn:focus {
 	background-color: var(--main-color);
 	color: #fff;
 	outline: none;
 	border: 0;
 }
-.notification-img{
+
+.notification-img {
 	width: 48px;
 	flex-shrink: 0;
 }
-.notification-image{
+
+.notification-image {
 	width: 100%;
 }
 
@@ -2954,7 +3071,6 @@ html[dir="ltr"] .search-icon {
 }
 
 
-
 .not-date {
 	color: #B4B4B4;
 	font-size: 11px;
@@ -2963,17 +3079,20 @@ html[dir="ltr"] .search-icon {
 	margin: 0;
 	font-family: "Tajawal-Medium";
 }
-.pay-grid{
+
+.pay-grid {
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(2, 1fr);
 	gap: 5px;
 	margin: 13px 0 0;
 }
-.unread-block{
+
+.unread-block {
 	background-color: #FAFAFA;
 	border: 1px solid #EEEEEE;
 }
-.wallet-info-bar{
+
+.wallet-info-bar {
 	background-color: var(--main-color);
 	display: flex;
 	align-items: center;
@@ -2982,22 +3101,26 @@ html[dir="ltr"] .search-icon {
 	margin: 0 0 20px;
 	border-radius: 10px;
 }
-.order-label-22{
+
+.order-label-22 {
 	width: 100%;
 }
-.form-input-11{
+
+.form-input-11 {
 	width: 100%;
 	margin: 15px 0 20px;
 	padding-inline-start: 28px;
 }
-.wallet-info-text{
+
+.wallet-info-text {
 	display: flex;
 	align-items: center;
 	gap: 23px;
 	color: #fff;
 	font-size: 16px;
 }
-.wallet-info-answer{
+
+.wallet-info-answer {
 	color: #fff;
 	display: block;
 	margin: 0;
@@ -3005,7 +3128,8 @@ html[dir="ltr"] .search-icon {
 	font-size: 24px;
 	font-family: "Tajawal-Bold";
 }
-.week-list{
+
+.week-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -3015,32 +3139,36 @@ html[dir="ltr"] .search-icon {
 	max-height: 140px;
 	flex-wrap: wrap;
 }
-.time-input{
+
+.time-input {
 	width: 150px;
 	display: block;
 }
-.checkbox{
+
+.checkbox {
 	display: flex;
 	align-items: center;
 	gap: 12px;
 	margin: 0;
 	margin-inline-start: 41px;
 }
+
 .checkbox input {
-    width: 18px;
-    height: 18px;
-    border: 0;
-    margin: 0;
-    padding: 0;
+	width: 18px;
+	height: 18px;
+	border: 0;
+	margin: 0;
+	padding: 0;
 	position: relative;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: #F1F1F1;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #F1F1F1;
 	border-radius: 3px;
-    flex-shrink: 0;
+	flex-shrink: 0;
 	outline: none;
 }
-.pay-note{
+
+.pay-note {
 	color: var(--main-color);
 	display: block;
 	text-align: center;
@@ -3048,7 +3176,8 @@ html[dir="ltr"] .search-icon {
 	font-size: 14px;
 	font-family: "Tajawal-Medium";
 }
-.pay-note-2{
+
+.pay-note-2 {
 	color: var(--main-color);
 	display: block;
 	text-align: center;
@@ -3056,7 +3185,8 @@ html[dir="ltr"] .search-icon {
 	font-size: 16px;
 	font-family: "Tajawal-Bold";
 }
-.payment-bar{
+
+.payment-bar {
 	display: flex;
 	justify-content: space-between;
 	padding: 17px 20px;
@@ -3064,14 +3194,16 @@ html[dir="ltr"] .search-icon {
 	margin: 0 0 30px;
 	background-color: rgba(233, 202, 0, 0.15);
 }
-.payment-info-list{
+
+.payment-info-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	gap: 20px;
 }
-.payment-info-list li{
+
+.payment-info-list li {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -3080,7 +3212,7 @@ html[dir="ltr"] .search-icon {
 	font-family: "Tajawal-Medium";
 }
 
-.payment-info-list li:not(:last-child):after{
+.payment-info-list li:not(:last-child):after {
 	content: "";
 	width: 4px;
 	height: 1px;
@@ -3088,43 +3220,47 @@ html[dir="ltr"] .search-icon {
 	margin-inline-start: 13px;
 }
 
-.payment-note{
+.payment-note {
 	font-family: "Tajawal-Bold";
 	display: block;
 	text-align: start;
 	margin: 0;
 }
-.checkbox label{
+
+.checkbox label {
 	font-size: 13px;
-    color: var(--main-color);
-    font-family: "Tajawal-Medium";
-    padding: 0;
-   text-transform: capitalize;
-   margin: 0;
-   margin-inline-start: 12px;
-    text-align: start;
-    line-height: 1.7;
+	color: var(--main-color);
+	font-family: "Tajawal-Medium";
+	padding: 0;
+	text-transform: capitalize;
+	margin: 0;
+	margin-inline-start: 12px;
+	text-align: start;
+	line-height: 1.7;
 }
+
 .checkbox input:checked::after {
-    content: "";
-    font-family: "Line Awesome Free";
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--main-color);
-    display: flex;
-    background-color: var(--main-hover);
-    width: 18px;
-    height: 18px;
-    justify-content: center;
-    align-items: center;
-    border: 0;
-	outline: none;
-}
-.checkbox input:focus{
+	content: "";
+	font-family: "Line Awesome Free";
+	font-weight: 700;
+	font-size: 14px;
+	color: var(--main-color);
+	display: flex;
+	background-color: var(--main-hover);
+	width: 18px;
+	height: 18px;
+	justify-content: center;
+	align-items: center;
 	border: 0;
 	outline: none;
 }
-.charge-link{
+
+.checkbox input:focus {
+	border: 0;
+	outline: none;
+}
+
+.charge-link {
 	color: var(--main-color);
 	background-color: var(--main-hover);
 	display: flex;
@@ -3137,25 +3273,30 @@ html[dir="ltr"] .search-icon {
 	font-size: 14px;
 	font-family: "Tajawal-Bold";
 }
-.charge-link:hover{
+
+.charge-link:hover {
 	background-color: var(--main-color);
 	color: #fff;
 	text-decoration: none;
 }
-.charge-link-2:hover{
+
+.charge-link-2:hover {
 	background-color: #fff;
 	color: var(--main-color);
 }
-.history-icon{
+
+.history-icon {
 	font-size: 18px;
 	color: #9B9B9B;
 }
-.wallet-label{
+
+.wallet-label {
 	width: 100%;
 	font-size: 14px;
 	margin: 0 0 15px;
 }
-.wallet-block{
+
+.wallet-block {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -3163,13 +3304,15 @@ html[dir="ltr"] .search-icon {
 	box-shadow: 0px 3px 6px #0000001A;
 	margin: 0 0 10px;
 }
-.wallet-block-2{
-	
+
+.wallet-block-2 {
+
 	padding: 15px;
 	box-shadow: 0px 3px 6px #0000001A;
 	margin: 0 0 10px;
 }
-.wallet-status{
+
+.wallet-status {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3180,16 +3323,20 @@ html[dir="ltr"] .search-icon {
 	border-radius: 10px;
 	padding: 0 10px;
 }
-.review{
+
+.review {
 	background-color: var(--main-hover);
 }
-.cancelled{
+
+.cancelled {
 	background-color: #F8324A;
 }
-.completed{
+
+.completed {
 	background-color: #4BD12A;
 }
-.reciept-btn{
+
+.reciept-btn {
 	background-color: rgba(52, 183, 234, 0.15);
 	display: flex;
 	align-items: center;
@@ -3207,25 +3354,30 @@ html[dir="ltr"] .search-icon {
 	border-radius: 15px;
 	margin: 13px 0 0;
 }
-.download-icon{
+
+.download-icon {
 	font-size: 14px;
 }
-.reciept-btn:hover{
-	background-color:rgba(52, 183, 234, 1) ;
+
+.reciept-btn:hover {
+	background-color: rgba(52, 183, 234, 1);
 	color: #fff;
 }
-.reciept-btn:focus{
-	background-color:rgba(52, 183, 234, 1) ;
+
+.reciept-btn:focus {
+	background-color: rgba(52, 183, 234, 1);
 	color: #fff;
 	outline: none;
 	border: 0;
 }
-.wallet-details{
+
+.wallet-details {
 	display: flex;
 	flex-direction: column;
-	gap:12px;
+	gap: 12px;
 }
-.wallet-info{
+
+.wallet-info {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -3233,7 +3385,8 @@ html[dir="ltr"] .search-icon {
 	font-size: 14px;
 	font-family: "Tajawal-Medium";
 }
-.wallet-note{
+
+.wallet-note {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3245,31 +3398,36 @@ html[dir="ltr"] .search-icon {
 	border-radius: 10px;
 	background-color: #34B7EA;
 }
-.contact-content{
+
+.contact-content {
 	width: 549px;
 }
-.contact-title{
+
+.contact-title {
 	color: var(--main-color);
 	text-align: start;
 	font-size: 16px;
 	font-family: "Tajawal-Bold";
 	margin: 0 0 15px;
 }
-.contact-list{
+
+.contact-list {
 	list-style: none;
 	margin: 0 0 60px;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
 }
-.contact-list li{
+
+.contact-list li {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 	color: var(--main-color);
 	font-size: 18px;
 }
-.contact-icon{
+
+.contact-icon {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3281,68 +3439,90 @@ html[dir="ltr"] .search-icon {
 	width: 40px;
 	height: 40px;
 }
-.contact-form .form-input-1{
+
+.contact-form .form-input-1 {
 	width: 100%;
-	padding-inline-start:  26.5px;
+	padding-inline-start: 26.5px;
 	margin: 0 0 10px;
 }
-.contact-form .upload__btn{
+
+.contact-form .upload__btn {
 	width: 100%;
 	margin: 0 0 10px;
 }
-.form-textarea{
+
+.form-textarea {
 	height: 100px;
 	width: 100%;
-   
-    border-radius:24px;
-    background-color: #F1F1F1;
-    display: flex;
-    align-items: center;
-    padding:  26.5px;
-    border: 2px solid transparent;
-    outline: none;
-    transition: 0.5s;
-    color: #9B9B9B;
-    font-size: 14px;
+
+	border-radius: 24px;
+	background-color: #F1F1F1;
+	display: flex;
+	align-items: center;
+	padding: 26.5px;
+	border: 2px solid transparent;
+	outline: none;
+	transition: 0.5s;
+	color: #9B9B9B;
+	font-size: 14px;
 }
-.form-textarea:focus{
+
+.form-textarea:focus {
 	border: 2px solid var(--main-color);
 }
-.contact-form .submit-btn{
+
+.contact-form .submit-btn {
 	width: 200px;
-    height: 48px;
+	height: 48px;
 	border-radius: 24px;
 	margin: 20px 0 0;
 }
-.wallet-price{
+
+.wallet-price {
 	color: var(--main-color);
 	font-size: 16px;
 	display: flexs;
 	text-align: start;
 	margin: 0;
-	gap:10px;
+	gap: 10px;
 	font-family: "Tajawal-Bold";
 }
-.small-icon{
+
+.small-icon {
 	width: 26px;
 }
-.date-bar{
+
+.small-product-grid {
+	display: grid;
+	margin: 10px 0 0;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 11px;
+}
+
+.small-product-grid .offer-img {
+	width: 71px;
+}
+
+.date-bar {
 	display: flex;
 	align-items: center;
 	gap: 11px;
 }
-.wallet-info-2{
+
+.wallet-info-2 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.wallet-details-2{
+
+.wallet-details-2 {
 	display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 100%;
+	flex-direction: column;
+	gap: 12px;
+	width: 100%;
 }
-.wallet-price-2{
+
+.wallet-price-2 {
 	color: #9B9B9B;
 	font-size: 12px;
 	display: block;
@@ -3350,25 +3530,28 @@ html[dir="ltr"] .search-icon {
 	margin: 0;
 	font-family: "Tajawal-Bold";
 }
-.wallet-p{
+
+.wallet-p {
 	text-align: start;
 	margin: 23px 0 0;
 	color: #9B9B9B;
 	font-size: 12px;
-	
+
 }
-.wallet-note-2{
+
+.wallet-note-2 {
 	color: #9B9B9B;
 	font-size: 12px;
 	display: block;
 	text-align: start;
 	margin: 0;
-	
+
 }
+
 /*                             notifications page                       */
 
 /*                                   wallet page                           */
-.add-product-link{
+.add-product-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3382,24 +3565,29 @@ html[dir="ltr"] .search-icon {
 	gap: 4px;
 	background-color: #EEEEEE;
 }
-.btn-icon{
+
+.btn-icon {
 	font-size: 16px;
 }
-.add-product-link:hover{
+
+.add-product-link:hover {
 	background-color: var(--main-color);
 	text-decoration: none;
 	color: #fff;
 }
-.products-grid{
+
+.products-grid {
 	display: grid;
-	grid-template-columns: repeat(5,1fr);
-	gap:22px;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 22px;
 }
-.product-img-2{
+
+.product-img-2 {
 	margin: 0 0 10px;
 	position: relative;
 }
-.product-number{
+
+.product-number {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3412,18 +3600,23 @@ html[dir="ltr"] .search-icon {
 	font-family: "Tajawal-Bold";
 	position: absolute;
 	top: 5px;
+	width: max-content;
 	inset-inline-start: 5px;
 }
-.green{
+
+.green {
 	background-color: #4BD12A;
 }
-.red{
+
+.red {
 	background-color: #F8324A;
 }
-.product-image{
+
+.product-image {
 	width: 100%;
 }
-.product-name{
+
+.product-name {
 	color: var(--main-color);
 	display: block;
 	margin: 0 0 10px;
@@ -3433,16 +3626,19 @@ html[dir="ltr"] .search-icon {
 	height: 40px;
 	overflow: hidden;
 }
-.product-block:hover .product-name{
+
+.product-block:hover .product-name {
 	color: var(--main-hover);
 	text-decoration: none;
 }
-.price-div{
+
+.price-div {
 	display: flex;
 	align-items: center;
 	gap: 7px;
 }
-.new-price{
+
+.new-price {
 	color: var(--main-color);
 	font-size: 16px;
 	font-family: "Tajawal-Bold";
@@ -3450,7 +3646,8 @@ html[dir="ltr"] .search-icon {
 	margin: 0;
 	text-align: start;
 }
-.old-price{
+
+.old-price {
 	color: #9B9B9B;
 	font-size: 14px;
 	font-family: "Tajawal-Medium";
@@ -3514,7 +3711,8 @@ html[dir="ltr"] .search-icon {
 
 
 }
-.radio-list{
+
+.radio-list {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
@@ -3536,18 +3734,21 @@ html[dir="ltr"] .search-icon {
 	margin: 0;
 
 }
-.modal-btns{
+
+.modal-btns {
 	display: flex;
 	gap: 13px;
 	justify-content: center;
 }
-.modal-btns button{
+
+.modal-btns button {
 	width: 151px;
 	height: 40px;
 	border-radius: 20px;
 	font-size: 14px;
 }
-.cancel-btn{
+
+.cancel-btn {
 	background-color: #E6E6E6;
 	border: 0;
 	outline: none;
@@ -3555,7 +3756,8 @@ html[dir="ltr"] .search-icon {
 	font-family: "Tajawal-Bold";
 	transition: 0.5s;
 }
-.cancel-btn:hover{
+
+.cancel-btn:hover {
 	background-color: var(--main-color);
 	color: #fff;
 }
@@ -3607,21 +3809,9 @@ html[dir="ltr"] .search-icon {
 }
 
 
-
 .order-table .table-record {
 	background-color: #F8F8F8;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*                                      my-orders  page                             */
@@ -3657,66 +3847,84 @@ html[dir="ltr"] .search-icon {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 15px;
 	}
-	.cart-btnn-div{
+
+	.cart-btnn-div {
 		justify-content: center;
 	}
-	#cancelOrderModal .modal-dialog{
+
+	#cancelOrderModal .modal-dialog {
 		width: 100%;
 	}
-	#ratingModal .modal-dialog{
+
+	#ratingModal .modal-dialog {
 		width: 100%;
 	}
-	.pay-grid{
-		grid-template-columns: repeat(1,1fr);
+
+	.pay-grid {
+		grid-template-columns: repeat(1, 1fr);
 	}
-	.dashboard-table-2{
+
+	.dashboard-table-2 {
 		width: 100% !important;
 	}
-	.order-statuss{
+
+	.order-statuss {
 		font-size: 8px;
 	}
-	.dashboard-title-bar{
-		flex-wrap: wrap;
-		gap:15px;
-	}
-	.product-content{
-		flex-wrap: wrap;
-	}
-	.payment-bar{
-		flex-wrap: wrap;
-		gap:15px;
-		justify-content: center;
-	}
-	.products-grid{
-		grid-template-columns: repeat(2, 1fr);
-	}
-	.payment-info-list{
-		flex-wrap: wrap;
-		gap:15px;
-		justify-content: center;	
-	}
-	.payment-info-list li:not(:last-child):after{
-		width: 0;
-	}
-	.form-text-2{
-		font-size: 18px;
-	}
-	.wallet-info-bar{
-		flex-wrap: wrap;
-    gap: 10px;
-    
-	}
-	.contact-content {
-		width: 100%;
-	}
-	.contact-list{
+
+	.dashboard-title-bar {
 		flex-wrap: wrap;
 		gap: 15px;
 	}
-	.wallet-info-2{
+
+	.product-content {
 		flex-wrap: wrap;
-		gap:10px;
 	}
+
+	.payment-bar {
+		flex-wrap: wrap;
+		gap: 15px;
+		justify-content: center;
+	}
+
+	.products-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.payment-info-list {
+		flex-wrap: wrap;
+		gap: 15px;
+		justify-content: center;
+	}
+
+	.payment-info-list li:not(:last-child):after {
+		width: 0;
+	}
+
+	.form-text-2 {
+		font-size: 18px;
+	}
+
+	.wallet-info-bar {
+		flex-wrap: wrap;
+		gap: 10px;
+
+	}
+
+	.contact-content {
+		width: 100%;
+	}
+
+	.contact-list {
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+
+	.wallet-info-2 {
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
 	.upload__btn {
 		width: 100%;
 	}
@@ -3778,7 +3986,6 @@ html[dir="ltr"] .search-icon {
 		flex-wrap: wrap;
 	}
 
-	
 
 	.radio-btns-div {
 		gap: 15px 30px;
@@ -3790,7 +3997,6 @@ html[dir="ltr"] .search-icon {
 		grid-template-columns: repeat(1, 1fr);
 	}
 
-	
 
 	.table-record td {
 		max-width: 100%;
@@ -3807,9 +4013,6 @@ html[dir="ltr"] .search-icon {
 	}
 
 
-	
-
-
 	.not-img {
 		display: none;
 	}
@@ -3818,27 +4021,20 @@ html[dir="ltr"] .search-icon {
 		margin-top: 0;
 	}
 
-	
-
 
 	.dashboard-form .input-block {
 		margin-bottom: 15px;
 	}
 
-	
-
-	
 
 	.checkbox-div {
 		margin-bottom: 15px;
 	}
 
 
-
 	.form-text {
 		margin: 0 auto 50px;
 	}
-
 
 
 	.form-record {
@@ -3937,7 +4133,7 @@ html[dir="ltr"] .search-icon {
 
 	}
 
-	
+
 	/*                    menu in phone size                      */
 }
 
@@ -4014,22 +4210,28 @@ html[dir="ltr"] .search-icon {
 	#sendProposalModal .modal-dialog {
 		width: 100%;
 	}
-	.dashboard-table-2{
+
+	.dashboard-table-2 {
 		width: 60% !important;
 	}
-	.products-grid{
+
+	.products-grid {
 		grid-template-columns: repeat(4, 1fr);
 	}
-	.order-statuss{
+
+	.order-statuss {
 		font-size: 9px;
 	}
-	.form-grid-2{
+
+	.form-grid-2 {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 15px 31px;
 	}
-	.working-days-bar .week-list{
+
+	.working-days-bar .week-list {
 		flex-wrap: wrap;
 	}
+
 	.dashboard-form .input-block {
 		width: 170px;
 	}
@@ -4064,8 +4266,6 @@ html[dir="ltr"] .search-icon {
 	}
 
 
-
-
 }
 
 
@@ -4075,33 +4275,43 @@ html[dir="ltr"] .search-icon {
 		padding: 0 !important;
 
 	}
-	.cart-btnn-div{
+
+	.cart-btnn-div {
 		justify-content: flex-end;
 	}
-	.pay-grid{
-		grid-template-columns: repeat(2,1fr);
+
+	.pay-grid {
+		grid-template-columns: repeat(2, 1fr);
 	}
-	#cancelOrderModal .modal-dialog{
+
+	#cancelOrderModal .modal-dialog {
 		width: 375px;
 	}
-	#ratingModal .modal-dialog{
+
+	#ratingModal .modal-dialog {
 		width: 600px;
 	}
-	.dashboard-table-2{
+
+	.dashboard-table-2 {
 		width: 60% !important;
 	}
+
 	.product-content {
-        flex-wrap: nowrap;
-    }
-	.order-statuss{
+		flex-wrap: nowrap;
+	}
+
+	.order-statuss {
 		font-size: 11px;
 	}
-	.products-grid{
+
+	.products-grid {
 		grid-template-columns: repeat(4, 1fr);
 	}
-	.payment-bar{
+
+	.payment-bar {
 		justify-content: space-between;
 	}
+
 	.order-block {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 30px;
@@ -4117,16 +4327,11 @@ html[dir="ltr"] .search-icon {
 		order: 0;
 	}
 
-	
-
-	
 
 	.form-record {
 		flex-wrap: nowrap;
 		gap: 20px !important;
 	}
-
-
 
 
 }
